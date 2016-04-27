@@ -38,7 +38,14 @@
 							<a href="{% url 'home' %}">{% trans "Home" %}</a>
 						</li>
             <li class="{% block tables_active %}{% endblock %}">
-							<a href="{% url 'zwp_dir' 'tables' '' %}">{% trans "Mechanical tables" %}</a>
+							<a href="{% url 'zwp_dir' 'mechanical-tables' '' %}">
+								{% trans "Mechanical tables" %}
+							</a>
+						</li>
+						<li class="{% block calculations_active %}{% endblock %}">
+							<a href="{% url 'zwp_dir' 'engineering-calculations' '' %}">
+								{% trans "Engineering calculations" %}
+							</a>
 						</li>
             <li class="{% block downloads_active %}{% endblock %}">
 							<a href="{% url 'zwp_downloads' %}">{% trans "Downloads" %}</a>

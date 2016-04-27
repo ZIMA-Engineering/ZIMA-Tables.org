@@ -1,5 +1,5 @@
 """
-WSGI config for mechanical_tables project.
+WSGI config for zima_tables project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mechanical_tables.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "zima_tables.settings")
 
 application = get_wsgi_application()

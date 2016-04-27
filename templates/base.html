@@ -37,16 +37,13 @@
             <li class="{% block home_active %}{% endblock %}">
 							<a href="{% url 'home' %}">{% trans "Home" %}</a>
 						</li>
-            <li class="{% block tables_active %}{% endblock %}">
-							<a href="{% url 'zwp_dir' 'mechanical-tables' '' %}">
-								{% trans "Mechanical tables" %}
-							</a>
-						</li>
-						<li class="{% block calculations_active %}{% endblock %}">
-							<a href="{% url 'zwp_dir' 'engineering-calculations' '' %}">
-								{% trans "Engineering calculations" %}
-							</a>
-						</li>
+
+						{% for ds in zwp_data_sources %}
+							<li {% if zwp_dir and zwp_dir.ds.name == ds.name %}class="active"{% endif %}>
+								<a href="{{ ds.url }}">{{ ds.label }}</a>
+							</li>
+						{% endfor %}
+
             <li class="{% block downloads_active %}{% endblock %}">
 							<a href="{% url 'zwp_downloads' %}">{% trans "Downloads" %}</a>
 						</li>

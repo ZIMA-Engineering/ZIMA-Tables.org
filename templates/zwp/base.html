@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load i18n static zwp_tags %}
+
+{% block css %}
+	{{ block.super }}
+	<link rel="stylesheet" href="{% static 'zwp/css/jstree/style.min.css' %}">
+{% endblock %}
+
+{% block js_head %}
+	{{ block.super }}
+	<script type="text/javascript" src="{% static 'zwp/js/jstree.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'zwp/js/nojs-tabs.js' %}"></script>
+	<script type="text/javascript" src="{% static 'zwp/js/zwp.js' %}"></script>
+{% endblock %}
+
+{% block tables_active %}active{% endblock %}
+
+{% block language_switch %}
+  {% get_available_languages as LANGUAGES %}
+  {% get_current_language as current_lang %}
+  {% for lang, label in LANGUAGES %}
+    <li class="{% if current_lang == lang %}active{% endif %}">
+      {% language lang %}
+        <a href="{{ zwp_dir.url }}">{{ label }}</a>
+      {% endlanguage %}
+    </li>
+  {% endfor %}
+{% endblock %}
+
+{% block content %}
+	<div class="col-md-3 sidebar" id="zwp-nav">
+		{% block zwp_menu %}
+			{% directory_tree %}
+		{% endblock %}
+	</div>
+
+	<div class="col-md-9 col-md-offset-3" id="zwp-content">
+		{% block zwp_dir %}
+		{% endblock %}
+	</div>
+{% endblock %}

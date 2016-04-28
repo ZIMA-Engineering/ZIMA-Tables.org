@@ -23,6 +23,10 @@
 	border: none;
 }
 
+#tabbar ul li a {
+    outline: none;
+}
+
 li.tab-active a {
 	font-weight: bold;
 }

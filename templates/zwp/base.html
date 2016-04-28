@@ -19,11 +19,15 @@
   {% get_available_languages as LANGUAGES %}
   {% get_current_language as current_lang %}
   {% for lang, label in LANGUAGES %}
-    <li class="{% if current_lang == lang %}active{% endif %}">
-      {% language lang %}
-        <a href="{{ zwp_dir.url }}">{{ label }}</a>
-      {% endlanguage %}
-    </li>
+		{% if current_lang != lang %}
+			<li>
+				{% language lang %}
+					<a href="{{ zwp_dir.url }}">
+						<img src="{% static 'img/flags/' %}{{ lang }}.png" alt="{{ label }}">
+					</a>
+				{% endlanguage %}
+			</li>
+		{% endif %}
   {% endfor %}
 {% endblock %}
 

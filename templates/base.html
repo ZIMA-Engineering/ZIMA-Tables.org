@@ -54,14 +54,18 @@
 						</li>
           </ul>
 
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav navbar-right lang-switch">
             {% block language_switch %}
               {% get_available_languages as LANGUAGES %}
               {% get_current_language as current_lang %}
               {% for lang, label in LANGUAGES %}
-                <li class="{% if current_lang == lang %}active{% endif %}">
-                  <a href="/{{ lang }}">{{ label }}</a>
-                </li>
+								{% if current_lang != lang %}
+									<li>
+										<a href="/{{ lang }}">
+											<img src="{% static 'img/flags/' %}{{ lang }}.png" alt="{{ label }}">
+										</a>
+									</li>
+								{% endif %}
               {% endfor %}
             {% endblock %}
           </ul>

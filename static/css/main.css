@@ -15,6 +15,11 @@ body {
     top: -20px;
 }
 
+.lang-switch li a{
+    padding: 14px 12px 0 3px;
+    outline: none;
+}
+
 .footer {
     position: absolute;
     bottom: 0;

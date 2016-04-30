@@ -88,6 +88,12 @@
 						</p>
 
 					{% else %}
+						<ul class="nav navbar-nav navbar-right sign-in">
+							<li>
+								<a href="{% url 'login' %}">{% trans "Sign in" %}</a>
+							</li>
+						</ul>
+
 						<form action="{% url 'login' %}" method="post" class="navbar-form navbar-right">
 							{% csrf_token %}
 							<input type="hidden" name="next" value="{{ request.path }}">

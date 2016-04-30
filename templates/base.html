@@ -101,15 +101,17 @@
 
     <div class="container-fluid">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					{% if messages %}
-						{% for message in messages %}
-							<div class="alert {{ message.tags }}" role="alert">
-								{{ message }}
-							</div>
-						{% endfor %}
-					{% endif %}
-				</div>
+				{% block messages %}
+					<div class="col-md-8 col-md-offset-2">
+						{% if messages %}
+							{% for message in messages %}
+								<div class="alert {{ message.tags }}" role="alert">
+									{{ message }}
+								</div>
+							{% endfor %}
+						{% endif %}
+					</div>
+				{% endblock %}
 			</div>
       <div class="row">
         {% block content %}

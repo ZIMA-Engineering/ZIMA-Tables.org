@@ -38,3 +38,7 @@ div.tab-hidden {
 div.tab-active {
 	display: block;
 }
+
+tr.striped {
+    background-color: #f9f9f9;
+}

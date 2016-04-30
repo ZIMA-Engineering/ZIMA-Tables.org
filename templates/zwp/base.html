@@ -22,7 +22,7 @@
 		{% if current_lang != lang %}
 			<li>
 				{% language lang %}
-					<a href="{{ zwp_dir.url }}">
+					<a data-lang-code="{{ lang }}" href="{{ zwp_dir.url }}">
 						<img src="{% static 'img/flags/' %}{{ lang }}.png" alt="{{ label }}">
 					</a>
 				{% endlanguage %}

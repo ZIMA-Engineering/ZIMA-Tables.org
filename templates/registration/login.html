@@ -1,6 +1,10 @@
 {% extends "registration/base.html" %}
 {% load i18n %}
 
+{% block title %}
+{% trans "Sign in" %} | {{ block.super }}
+{% endblock %}
+
 {% block content %}
 {% if user.is_authenticated %}
 	<p>{% trans "You are already logged in." %}

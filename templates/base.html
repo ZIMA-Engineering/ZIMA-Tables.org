@@ -2,7 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>{% trans "ZIMA-Tables" %}</title>
+		<title>
+			{% block title %}{% trans "ZIMA-Tables.org" %}{% endblock %}
+		</title>
 		{% block head %}{% endblock %}
     {% block css %}
       <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">

@@ -41,6 +41,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'easy_thumbnails',
     'zwp',
 )
 
@@ -120,3 +121,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 ZWP_PART_FILTERS = ['stp', 'prt']
+ZWP_THUMBNAIL_BACKEND = 'zwp.thumbnails.easy_thumbnails'

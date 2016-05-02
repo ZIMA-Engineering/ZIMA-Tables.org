@@ -16,6 +16,7 @@ $(document).ready(function () {
 			if (!status)
 				return;
 
+			$('body').off('click', 'a[rel^=lightbox], area[rel^=lightbox], a[data-lightbox], area[data-lightbox]');
 			lightbox.enable();
 	});
 });

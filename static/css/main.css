@@ -34,6 +34,10 @@ nav form {
     outline: none;
 }
 
+.messages, #zwp-content {
+    padding-top: 10px;
+}
+
 .footer {
     position: absolute;
     bottom: 0;

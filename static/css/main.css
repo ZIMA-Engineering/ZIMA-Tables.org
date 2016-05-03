@@ -15,6 +15,10 @@ body {
     top: -20px;
 }
 
+.navbar a {
+    outline: 0px none;
+}
+
 nav form {
     display: none;
 }

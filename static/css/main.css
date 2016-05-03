@@ -34,7 +34,7 @@ nav form {
     outline: none;
 }
 
-.messages, #zwp-content {
+.spacing-top, .messages, #zwp-content {
     padding-top: 10px;
 }
 

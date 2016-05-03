@@ -19,7 +19,7 @@
 	{% endfor %}
 {% endif %}
 
-<form action="{% url 'login' %}" method="post" class="form-horizontal">
+<form action="{% url 'login' %}" method="post" class="form-horizontal spacing-top">
 	{% csrf_token %}
 	<div class="form-group">
 		<label for="username" class="col-sm-offset-2 col-sm-2 control-label">{% trans "Username" %}:</label>

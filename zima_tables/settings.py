@@ -122,3 +122,4 @@ MEDIA_URL = '/media/'
 
 ZWP_PART_FILTERS = ['stp', 'prt']
 ZWP_THUMBNAIL_BACKEND = 'zwp.thumbnails.easy_thumbnails'
+ZWP_DIR_SHOW_LABEL = False

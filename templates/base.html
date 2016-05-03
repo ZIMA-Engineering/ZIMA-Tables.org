@@ -45,7 +45,12 @@
 						{% endfor %}
 
 						<li class="{% block downloads_active %}{% endblock %}">
-							<a href="{% url 'zwp_downloads' %}">{% trans "Downloads" %}</a>
+							<a href="{% url 'zwp_downloads' %}">
+								{% trans "Downloads" %}
+								{% if download_batch %}
+									<span class="badge">{{ download_batch.count }}</span>
+								{% endif %}
+							</a>
 						</li>
 						<li class="{% block news_active %}{% endblock %}">
 							<a href="#">{% trans "News" %}</a>

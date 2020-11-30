@@ -9,8 +9,8 @@ engineering calculations are in a `standalone repository <http://fixme>`_.
 Requirements
 ============
 
-* Python 3.4+
-* Django 1.9+
+* Python 3.6+
+* Django 3.0+
 * `ZIMA-WEB-Parts`_
 
 Installation

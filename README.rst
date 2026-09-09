@@ -7,8 +7,8 @@ project built on top of `ZIMA-WEB-Parts`_. The mechanical tables and engineering
 
 See `data library documentation <docs/MECHANICAL_TABLES.md>`_ and the
 `thread validation report <docs/validation/threads-2026-09-09.md>`_.
-The imported tables have known defects; the report records proposed corrections.
-The original data values have not been changed.
+The thread tables include sourced corrections and complete, checked CSV exports.
+The report distinguishes verified dimensions from preserved historical designs.
 
 Requirements
 ============

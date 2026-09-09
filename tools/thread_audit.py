@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
 """Read-only audit of the imported tables; Python 3.8+, standard library.
-Exit 0: no confirmed defects, 1: confirmed defects, 2: invalid input.
+Exit 0: no actionable findings, 1: actionable findings, 2: invalid input.
 A calculation does not certify a standard series or a tolerance class.
 """
-import argparse, csv, hashlib, html, json, math, re, sys
+import argparse, csv, hashlib, html, io, json, math, re, sys
 from collections import Counter
 from fractions import Fraction
 from pathlib import Path
 from urllib.parse import quote
 from thread_html import Extractor, expand
+from thread_exports import export_spec
+from thread_refs import EXTERNAL_UNDERCUT, INTERNAL_UNDERCUT, INTERNAL_RUNOUT
 
 SOURCES = {
     'ISO724': ('ISO 724:2023, čl. 5','https://cdn.standards.iteh.ai/samples/85104/9815392ad8904c9aa23cf7727e7b1dde/ISO-724-2023.pdf'),
@@ -23,6 +25,13 @@ SOURCES = {
     'DIN76': ('DIN 76-1:2016-08, tab. 1–2; DIN Handbook 193, PDF s. 24 a 27','https://api.pageplace.de/preview/DT0400.9783410274964_A35868027/preview-9783410274964_A35868027.pdf'),
     'BOSSARD': ('Bossard, Metric ISO threads, 01/2025, s. 97','https://assets.eu.ctfassets.net/0vp0u5uh75zd/2tYqENAuufvdsudjM8Qbrc/b3461eaa59c2203d3a8b9509ac24dacf/096_098_Metric_ISOthreads_Fastening_EN_01_2025.pdf'),
     'FINELOK': ('FINELOK, Tube Fittings, PDF s. 4','https://www.rometec.it/gpEasy/data/_uploaded/file/Sito%20Rometec/finelok/Raccordi.pdf'),
+    'ISO3508': ('ISO 3508:1976, tabulka výběhů x','https://www.iso.org/standard/8866.html'),
+    'ISO4755': ('ISO 4755:1983, tabulka rozměrů','https://cdn.standards.iteh.ai/samples/10740/f952f83a66554afabb4a47e90b3e8d88/ISO-4755-1983.pdf'),
+    'DRASTIK103': ('F. Draštík a kol., Strojnické tabulky pro konstrukci i dílnu, 2. vyd., 1999, s. 103', 'https://github.com/ZIMA-Engineering/ZIMA-Tables.org/blob/master/data/mechanical-tables/0000-index/DOC/Strojnick%C3%A9-tabulky.pdf#page=103'),
+    'DRASTIK105': ('F. Draštík a kol., Strojnické tabulky pro konstrukci i dílnu, 2. vyd., 1999, s. 105', 'https://github.com/ZIMA-Engineering/ZIMA-Tables.org/blob/master/data/mechanical-tables/0000-index/DOC/Strojnick%C3%A9-tabulky.pdf#page=105'),
+    'DRASTIK119': ('F. Draštík a kol., Strojnické tabulky pro konstrukci i dílnu, 2. vyd., 1999, s. 119', 'https://github.com/ZIMA-Engineering/ZIMA-Tables.org/blob/master/data/mechanical-tables/0000-index/DOC/Strojnick%C3%A9-tabulky.pdf#page=119'),
+    'DRASTIK131': ('F. Draštík a kol., Strojnické tabulky pro konstrukci i dílnu, 2. vyd., 1999, s. 131', 'https://github.com/ZIMA-Engineering/ZIMA-Tables.org/blob/master/data/mechanical-tables/0000-index/DOC/Strojnick%C3%A9-tabulky.pdf#page=131'),
+    'DRASTIK132': ('F. Draštík a kol., Strojnické tabulky pro konstrukci i dílnu, 2. vyd., 1999, s. 132', 'https://github.com/ZIMA-Engineering/ZIMA-Tables.org/blob/master/data/mechanical-tables/0000-index/DOC/Strojnick%C3%A9-tabulky.pdf#page=132'),
     'LOCAL': ('Vnitřní konzistence uživatelských dat / struktura HTML',None),
 }
 H=math.sqrt(3)/2
@@ -120,13 +129,9 @@ class Audit:
                         family='metric_optics';d=number(t[0]);pitch=number(t[1]);label='M '+t[0]+' × '+t[1]
                         if t[1]=='035':
                             self.issue(row[1],label,'P [mm]',.35,'confirmed','ISO724','Ostatní průměry odpovídají P=0,35 mm.');pitch=.35
-                        if d==4.5 and pitch==.35 and number(t[2])==5:
-                            self.issue(row[0],label,'Rozpor jmenovitého a velkého průměru',None,'review','LOCAL',
-                                'Označení uvádí 4,5 mm, všechny čtyři průměry odpovídají 5 mm. Nejprve určit správné označení.')
-                        else:
-                            self.check(row,2,d,family,label,'d = jmenovitý průměr [mm]','LOCAL',status='confirmed')
-                            for c,e,name in ((3,d-.75*H*pitch,'D2 [mm]'),(4,d-1.25*H*pitch,'D1 [mm]'),(5,d-17*H*pitch/12,'d3 [mm]')):
-                                self.check(row,c,e,family,label,name,'ISO724')
+                        self.check(row,2,d,family,label,'d = jmenovitý průměr [mm]','LOCAL',status='confirmed')
+                        for c,e,name in ((3,d-.75*H*pitch,'D2 [mm]'),(4,d-1.25*H*pitch,'D1 [mm]'),(5,d-17*H*pitch/12,'d3 [mm]')):
+                            self.check(row,c,e,family,label,name,'ISO724')
                         self.record(family,row,(0,1))
                     elif '/02-Palcove zavity ISO - zakladni rozmery/' in p and len(t)==9 and re.fullmatch(r'[\d,./\s]+',t[2]):
                         family='unified';n=number(t[2]);d=inches(t[0]);label=t[8]
@@ -144,8 +149,10 @@ class Audit:
                         h=.640327*25.4/n
                         for c,e,name in ((3,d,'d'),(5,d-h,'d2'),(7,d-2*h,'d1'),(8,d,'D'),(9,d-h,'D2'),(11,d-2*h,'D1')):
                             self.check(row,c,e,family,t[0],name+' [mm]','ISO228',tolerance=.002)
-                        if t[0]=='W 3' and '-100' in t[4] and '-1000' not in t[4]:
-                            self.issue(row[4],t[0],'Dolní mezní úchylka d',None,'review','LOCAL','-100 µm přerušuje řadu -950, -1050 µm; ověřit chybějící nulu podle původní normy.')
+                        if t[0]=='W 3':
+                            self.checks[family]+=1
+                            if [number(v) for v in t[4].split()]!=[-90,-1000]:
+                                self.issue(row[4],t[0],'Mezní úchylky d [µm]','-90 / -1000','confirmed','DRASTIK119')
                         self.record(family,row,(0,))
                     elif '/01-Lichobeznikove zavity - zakladni rozmery/' in p and len(t)==14 and re.fullmatch(r'[\d,.()\s]+',t[0]):
                         family='trapezoidal';d=number(t[0]);pitch=number(t[1]);label=t[7]
@@ -190,22 +197,28 @@ class Audit:
                         self.record(family,row,(0,),list(range(6)))
                     elif '/08-Vybehy' in p and len(t)==11 and re.fullmatch(r'[\d,.]+',t[0]):
                         family='runouts';pitch=number(t[0]);label='P='+t[0]
-                        for c in range(2,11):
-                            if re.fullmatch(r'-?[\d,.]+',t[c]):
-                                self.checks[family]+=1
-                                if number(t[c])<0:
-                                    self.issue(row[c],label,'Délka výběhu musí být kladná',None,'confirmed','LOCAL',
-                                        'Záporná délka je chybná. Správnou kladnou hodnotu určit podle původní normy; DIN 76-1:2016 uvádí 1,25 mm.')
                         for c,e in ((2,DIN_EXT[pitch][0]),(3,DIN_EXT[pitch][1])):
-                            if t[c]!='-': self.check(row,c,e,family,label,'x1 DIN' if c==2 else 'x2 DIN','DIN76',status='standard_difference')
+                            self.check(row,c,e,family,label,'x normal max' if c==2 else 'x short max','ISO3508',status='confirmed')
+                        for c,e in enumerate(INTERNAL_RUNOUT[pitch],4):
+                            self.check(row,c,e,family,label,'Historický v/u/z, sloupec '+str(c+1),'DRASTIK131',status='confirmed')
                         self.record(family,row,(0,))
-                    elif '/09-Drazky' in p and len(t)==11 and re.fullmatch(r'[\d,.]+',t[0]):
-                        family='undercuts';pitch=number(t[0]);label='P='+t[0];ref=DIN_EXT[pitch]
-                        for c,e in ((3,ref[3]),(4,ref[4])):
-                            self.check(row,c,e,family,label,'a / g1 DIN' if c==3 else 'b / g2 DIN','DIN76',status='standard_difference')
-                        off=re.search(r'd\s*-\s*([\d,.]+)',t[2]);self.checks[family]+=1
-                        if off and abs(number(off[1])-ref[2])>.0001:
-                            self.issue(row[2],label,'dd / dg DIN',f'd - {ref[2]:g}','standard_difference','DIN76')
+                    elif '/09-Drazky' in p and len(t) in (11,12) and re.fullmatch(r'[\d,.]+',t[0]):
+                        family='undercuts';pitch=number(t[0]);label='P='+t[0]
+                        ext=EXTERNAL_UNDERCUT[pitch];internal=INTERNAL_UNDERCUT[pitch]
+                        source='DRASTIK132' if pitch==.2 else 'ISO4755'
+                        for col,offset,letter,sign,refsource in ((2,ext[0],'d','-',source),(5,internal[0],'D','+','DRASTIK132')):
+                            self.checks[family]+=1
+                            match=re.fullmatch(letter+r'\s*'+re.escape(sign)+r'\s*([\d,.]+)',t[col])
+                            if not match or abs(number(match[1])-offset)>.00001:
+                                self.issue(row[col],label,'Průměr drážky '+letter,f'{letter} {sign} {offset:g}','confirmed',refsource)
+                        for col,e,field in ((3,ext[1],'a min'),(4,ext[2],'b max'),(10,ext[3],'R vnější')):
+                            self.check(row,col,e,family,label,field,source,status='confirmed')
+                        for col,e in zip((6,7,8,9),internal[1:5]):
+                            self.check(row,col,e,family,label,'Historický A/B, sloupec '+str(col+1),'DRASTIK132',status='confirmed')
+                        if len(t)==12:
+                            self.check(row,11,internal[5],family,label,'R vnitřní','DRASTIK132',status='confirmed')
+                        else:
+                            self.issue(row[10],label,'Oddělené poloměry vnější/vnitřní drážky',12,'format','ISO4755')
                         self.record(family,row,(0,))
                     elif '/03-Metricke zavity ISO - tolerovani/' in p and len(t)==7 and re.fullmatch(r'[\d,.]+',t[0]) and re.fullmatch(r'[\d,.]+',t[2]):
                         family='metric_engagement';key=tuple(number(v) for v in t[:3])
@@ -255,8 +268,8 @@ class Audit:
                     if len(row)==2 and 'MINOR DIA' in row[1]['text'] and 'středního' in row[0]['text']:
                         self.issue(row[0],'MINOR DIA','Popis průměru','Mezní rozměry malého průměru závitu','confirmed','ISO725')
         if '/03-Metricke zavity ISO - tolerovani/' in p:
-            for suspect in ('4j6k','4H6J'):
-                match_issue(suspect,None,'Toleranční značka','review','LOCAL','Podezřelý zápis; bez původní ČSN pro přechodná uložení nenavrhuji náhradu.')
+            for suspect,correct in (('4j6k','4j6g'),('4H6J','4H6H')):
+                match_issue(suspect,correct,'Toleranční značka','confirmed','DRASTIK103','Ověřeno na straně 103 původní příručky.')
         if '/01-Palcove zavity ISO - prehled/' in p:
             ambiguous=[]
             for grid in grids:
@@ -276,61 +289,29 @@ class Audit:
 
     def exports(self,paths):
         for path in paths:
-            self.location=path.relative_to(self.root).as_posix();raw=path.read_text(encoding='utf-8-sig')
-            if re.search(r'<(?:table|thead|tr|td|th)\b',raw[:1000],re.I):
-                _,parser,grids=read_html(path)
-                rows=[[c['text'] for c in r] for g in grids for r in g if len(r)==5 and re.match(r'^M\s*\d',r[0]['text'])]
-                self.issue(dict(text='HTML',line=1),path.name,'Soubor s příponou CSV obsahuje HTML',None,'format','LOCAL','Čísla byla porovnána s HTML.')
-                family='metric_basic';keys=(0,1)
-            else:
-                delim='\t' if '\t' in raw else '|' if '|' in raw else ';'
-                rows=[r for r in csv.reader(raw.splitlines(),delimiter=delim) if any(v.strip() for v in r)]
-                if path.name=='table4.csv':
-                    rows=[r for r in rows if len(r)==5 and re.match(r'^M\s*\d',r[0])]
-                    family='metric_basic';keys=(0,1)
-                    self.issue(dict(text='Víceřádkové záhlaví, oddělovač |',line=1),path.name,'Nepravidelný formát exportu',None,'format')
-                elif 'pro vseobecne pouziti' in str(path):
-                    rows=[[r[5],r[1],r[3],r[2],r[4]] for r in rows if len(r)>=6];family='metric_basic';keys=(0,1)
-                elif 'pro jemnou mechaniku' in str(path):
-                    rows=[r[:6] for r in rows];family='metric_optics';keys=(0,1)
-                elif '02-Palcove zavity ISO - zakladni rozmery' in str(path):
-                    family='unified';keys=(8,);previous=''
-                    for r in rows:
-                        if r[0]: previous=r[0]
-                        else: r[0]=previous
-                elif '04-Whitworthovy' in str(path): family='whitworth';keys=(0,)
-                elif 'ISO 228' in str(path): family='pipe228';keys=(0,)
-                elif 'ISO 7 pro' in str(path):
-                    self.issue(dict(text=str(sorted(set(map(len,rows)))),line=1),path.name,'Neúplné řádky CSV po sloučených buňkách',None,'format','LOCAL',
-                        'Nejde o plochou tabulku: bez HTML nelze bezpečně obnovit význam některých polí.')
-                    self.files.append(dict(path=self.location,kind='csv',rows=len(rows),compared_rows=0,note='Ragged ISO 7 export; comparison unavailable'));continue
-                elif '01-Lichobeznikove zavity' in str(path): family='trapezoidal';keys=(0,1)
-                elif '07-Zvlastni' in str(path): family='cycle';keys=(0,)
-                elif '08-Vybehy' in str(path): family='runouts';keys=(0,)
-                elif '09-Drazky' in str(path): family='undercuts';keys=(0,)
-                else: continue
-            matched=0;available=self.records.get(family,{})
-            for i,r in enumerate(rows):
-                try:
-                    key=tuple(norm(r[c]) for c in keys);candidates=available.get(key)
-                    if not candidates:
-                        self.issue(dict(text=' | '.join(r),line=i+1),str(key),'Řádek exportu bez protějšku HTML',None,'review');continue
-                    original_path,original_line,target=candidates[0];compared=r
-                    if family=='pipe228': target=[target[c] for c in (0,3,4,5)]
-                    if family=='trapezoidal':
-                        compared=r[:14]
-                        target=[v if j<3 or j>6 or re.fullmatch(r'[\d,.]+',v) else '' for j,v in enumerate(target)]
-                    if family=='cycle': compared=r[:6]
-                    if len(compared)>len(target) and all(not v.strip() for v in compared[len(target):]): compared=compared[:len(target)]
-                    matched+=1;self.checks['export_cells']+=min(len(compared),len(target))
-                    if [norm(v) for v in compared]!=[norm(v) for v in target]:
-                        diff=[f'{c+1}: {a} / {b}' for c,(a,b) in enumerate(zip(compared,target)) if norm(a)!=norm(b)]
-                        self.issue(dict(text='; '.join(diff) or str(len(compared)),line=i+1),str(key),'CSV / HTML rozdíl',None,'confirmed' if family=='trapezoidal' else 'review','ISO2901' if family=='trapezoidal' else 'LOCAL',
-                            'HTML: '+original_path+':'+str(original_line)+'. Řádek CSV zde znamená pořadí datového řádku.')
-                except (ValueError,IndexError) as error:
-                    self.issue(dict(text=' | '.join(r),line=i+1),'CSV','Nečitelný řádek exportu',None,'format','LOCAL',f'Řádek má {len(r)} polí; tato tabulka vyžaduje 9. Chybí oddělovač nebo je sloučen text sousedních buněk.')
-            self.files.append(dict(path=self.location,kind='csv',rows=len(rows),compared_rows=matched,
-                html_reference_rows=len(available),note='Partial export' if matched<len(available) else ''))
+            self.location=path.relative_to(self.root).as_posix()
+            try:
+                spec=export_spec(path)
+                # Parse quoted fields correctly; do not drop empty rows or extras.
+                with path.open(encoding='utf-8-sig',newline='') as stream:
+                    rows=list(csv.reader(stream,delimiter='\t'))
+                target=spec['rows'];width=len(spec['columns'])
+                if len(rows)!=len(target):
+                    self.issue(dict(text=str(len(rows)),line=1),path.name,'Počet řádků CSV',len(target),'format')
+                compared=0
+                for i,r in enumerate(rows):
+                    if len(r)!=width:
+                        self.issue(dict(text=str(len(r)),line=i+1),path.name,'Počet sloupců CSV',width,'format')
+                        continue
+                    if i>=len(target):continue
+                    compared+=1;self.checks['export_cells']+=width
+                    if [norm(v) for v in r]!=[norm(v) for v in target[i]]:
+                        diff=[f'{spec["columns"][j]}: {a} / {b}' for j,(a,b) in enumerate(zip(r,target[i])) if norm(a)!=norm(b)]
+                        self.issue(dict(text='; '.join(diff),line=i+1),path.name,'CSV / HTML rozdíl','shoda s HTML','confirmed')
+                self.files.append(dict(path=self.location,kind='csv',rows=len(rows),compared_rows=compared,html_reference_rows=len(target),
+                    columns=spec['columns'],sha256=hashlib.sha256(path.read_bytes()).hexdigest()))
+            except (ValueError,OSError,csv.Error) as error:
+                self.issue(dict(text=str(error),line=1),path.name,'Čtení exportu',None,'format')
     def run(self):
         base=self.root/'03-ZAVITY'
         if not base.is_dir(): raise ValueError('Missing 03-ZAVITY directory')
@@ -348,8 +329,8 @@ class Audit:
 def render(result,prefix='../../data/mechanical-tables'):
     esc=lambda x:str(x if x is not None else '—').replace('|',r'\|').replace('\n',' ')
     out=['# Kontrolní nálezy závitových tabulek','',
-        'Automatický výstup čtecího auditu. Hodnoty nebyly změněny. Metodika a meze ověření: [protokol](threads-2026-09-09.md).','',
-        'Čísla řádků HTML odkazují na zdroj; u CSV jde u některých exportů o pořadí datových řádků. Výpočetní shoda sama nepotvrzuje normovou přípustnost rozměrové řady.','']
+        'Automatický výstup auditu aktuálních dat. Samotný audit hodnoty nemění. Metodika a meze ověření: [protokol](threads-2026-09-09.md).','',
+        'Čísla řádků odkazují na aktuální HTML/CSV. Výpočetní shoda sama nepotvrzuje normovou přípustnost rozměrové řady.','']
     titles={'confirmed':'Potvrzené chyby a vnitřní rozpory','precision':'Odchylky v posledních místech',
         'standard_difference':'Rozdíly proti DIN 76-1:2016; původní norma neurčena','review':'Nejasné údaje k dořešení','format':'Formát a strojová použitelnost'}
     for status,title in titles.items():
@@ -376,7 +357,8 @@ def main():
     except (ValueError,OSError) as error: parser.error(str(error))
     for path,content in ((args.json,json.dumps(result,ensure_ascii=False,indent=2)+'\n'),(args.markdown,render(result))):
         if path:
-            path.parent.mkdir(parents=True,exist_ok=True);path.write_text(content,encoding='utf-8')
+            path.parent.mkdir(parents=True,exist_ok=True)
+            with path.open('w',encoding='utf-8',newline='\n') as stream: stream.write(content)
     print(json.dumps(dict(counts=result['counts'],rows=result['rows'],checks=result['checks']),ensure_ascii=False))
-    return 1 if result['counts'].get('confirmed') else 0
+    return 1 if any(result['counts'].get(k) for k in ('confirmed','precision','format','review')) else 0
 if __name__=='__main__': sys.exit(main())

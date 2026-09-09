@@ -1,0 +1,264 @@
+{
+  "encoding": "UTF-8",
+  "delimiter": "tab",
+  "header": false,
+  "empty_geometry": "not provided by source",
+  "exports": [
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/table1.csv",
+      "columns": [
+        "designation",
+        "P_mm",
+        "D1_mm",
+        "D2_mm",
+        "d3_mm"
+      ],
+      "row_count": 79,
+      "sources": [
+        "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/index_cs.html"
+      ]
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/table2.csv",
+      "columns": [
+        "designation",
+        "P_mm",
+        "D1_mm",
+        "D2_mm",
+        "d3_mm"
+      ],
+      "row_count": 76,
+      "sources": [
+        "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/02-rozmery pro M20 az M48/0000-index/index_cs.html"
+      ]
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/table3.csv",
+      "columns": [
+        "designation",
+        "P_mm",
+        "D1_mm",
+        "D2_mm",
+        "d3_mm"
+      ],
+      "row_count": 78,
+      "sources": [
+        "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/03-rozmery pro M50 az M82/0000-index/index_cs.html"
+      ]
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/table4.csv",
+      "columns": [
+        "designation",
+        "P_mm",
+        "D1_mm",
+        "D2_mm",
+        "d3_mm"
+      ],
+      "row_count": 81,
+      "sources": [
+        "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/04-rozmery pro M85 az M175/0000-index/index_cs.html"
+      ]
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/table5.csv",
+      "columns": [
+        "designation",
+        "P_mm",
+        "D1_mm",
+        "D2_mm",
+        "d3_mm"
+      ],
+      "row_count": 78,
+      "sources": [
+        "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/05-rozmery pro M180 az M300/0000-index/index_cs.html"
+      ]
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/tabulka.csv",
+      "columns": [
+        "d_mm",
+        "P_mm",
+        "D2_mm",
+        "D1_mm",
+        "d3_mm",
+        "designation"
+      ],
+      "row_count": 392,
+      "sources": [
+        "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/index_cs.html",
+        "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/02-rozmery pro M20 az M48/0000-index/index_cs.html",
+        "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/03-rozmery pro M50 az M82/0000-index/index_cs.html",
+        "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/04-rozmery pro M85 az M175/0000-index/index_cs.html",
+        "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/05-rozmery pro M180 az M300/0000-index/index_cs.html"
+      ]
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/tabulka.csv",
+      "columns": [
+        "nominal_mm",
+        "P_mm",
+        "d_mm",
+        "D2_mm",
+        "D1_mm",
+        "d3_mm"
+      ],
+      "row_count": 314,
+      "sources": [
+        "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html"
+      ]
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/tabulka.csv",
+      "columns": [
+        "nominal_in",
+        "series",
+        "threads_per_in",
+        "P_mm",
+        "d_in",
+        "d_mm",
+        "D2_in",
+        "D1_in",
+        "designation"
+      ],
+      "row_count": 346,
+      "sources": [
+        "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html"
+      ]
+    },
+    {
+      "path": "03-ZAVITY/04-Whitworthovy zavity/0000-index/tabulka.csv",
+      "columns": [
+        "designation",
+        "threads_per_in",
+        "P_mm",
+        "d_mm",
+        "d_deviations_um",
+        "d2_mm",
+        "d2_deviations_um",
+        "d1_mm",
+        "D_mm",
+        "D2_mm",
+        "D2_deviations_um",
+        "D1_mm",
+        "D1_deviations_um"
+      ],
+      "row_count": 30,
+      "sources": [
+        "03-ZAVITY/04-Whitworthovy zavity/0000-index/index_cs.html"
+      ]
+    },
+    {
+      "path": "03-ZAVITY/05-Trubkove zavity ISO/01-Rozmery trubkovych zavitu podle ISO 7 pro spoje tesnici mezi boky/0000-index/tabulka.csv",
+      "columns": [
+        "designation",
+        "threads_per_in",
+        "P_mm",
+        "d_mm",
+        "d2_mm",
+        "d1_mm",
+        "gauge_length_max_min_mm",
+        "gauge_length_tolerance_turns",
+        "internal_gauge_plane_tolerance_turns",
+        "external_usable_length_max_min_mm",
+        "assembly_allowance_turns"
+      ],
+      "row_count": 15,
+      "sources": [
+        "03-ZAVITY/05-Trubkove zavity ISO/01-Rozmery trubkovych zavitu podle ISO 7 pro spoje tesnici mezi boky/0000-index/index_cs.html"
+      ]
+    },
+    {
+      "path": "03-ZAVITY/05-Trubkove zavity ISO/02-Rozmery trubkovĂ˝ch zavitu podle ISO 228 pro spoje netesnici mezi boky/0000-index/tabulka.csv",
+      "columns": [
+        "designation",
+        "d_mm",
+        "D2_mm",
+        "D1_mm"
+      ],
+      "row_count": 24,
+      "sources": [
+        "03-ZAVITY/05-Trubkove zavity ISO/02-Rozmery trubkovĂ˝ch zavitu podle ISO 228 pro spoje netesnici mezi boky/0000-index/index_cs.html"
+      ]
+    },
+    {
+      "path": "03-ZAVITY/06-Lichobeznikove zavity/01-Lichobeznikove zavity - zakladni rozmery/0000-index/tabulka.csv",
+      "columns": [
+        "nominal_mm",
+        "P_mm",
+        "d_mm",
+        "D4_mm",
+        "D2_mm",
+        "d3_mm",
+        "D1_mm",
+        "designation",
+        "Ph_1_starts_mm",
+        "Ph_2_starts_mm",
+        "Ph_3_starts_mm",
+        "Ph_4_starts_mm",
+        "Ph_6_starts_mm",
+        "Ph_8_starts_mm"
+      ],
+      "row_count": 143,
+      "sources": [
+        "03-ZAVITY/06-Lichobeznikove zavity/01-Lichobeznikove zavity - zakladni rozmery/0000-index/index_cs.html"
+      ]
+    },
+    {
+      "path": "03-ZAVITY/07-Zvlastni zavity uzivane na jizdnich kolech/0000-index/tabulka.csv",
+      "columns": [
+        "designation",
+        "threads_per_in",
+        "P_mm",
+        "d_mm",
+        "d2_mm",
+        "d1_mm"
+      ],
+      "row_count": 12,
+      "sources": [
+        "03-ZAVITY/07-Zvlastni zavity uzivane na jizdnich kolech/0000-index/index_cs.html"
+      ]
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/tabulka.csv",
+      "columns": [
+        "P_mm",
+        "coarse_threads",
+        "x_normal_max_mm",
+        "x_short_max_mm",
+        "v_normal_max_mm",
+        "u_normal_min_mm",
+        "v_short_max_mm",
+        "u_short_min_mm",
+        "v_long_max_mm",
+        "u_long_min_mm",
+        "z_min_mm"
+      ],
+      "row_count": 24,
+      "sources": [
+        "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html"
+      ]
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/tabulka.csv",
+      "columns": [
+        "P_mm",
+        "coarse_threads",
+        "dd_mm",
+        "a_min_mm",
+        "b_max_mm",
+        "Dd_mm",
+        "A_normal_max_mm",
+        "B_normal_min_mm",
+        "A_short_max_mm",
+        "B_short_min_mm",
+        "R_external_mm",
+        "R_internal_mm"
+      ],
+      "row_count": 24,
+      "sources": [
+        "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html"
+      ]
+    }
+  ]
+}

@@ -81,5 +81,80 @@ class AuditTests(unittest.TestCase):
             path=Path(tmp)/'empty.html';path.write_text('',encoding='utf-8')
             self.assertEqual(read_html(path)[2],[])
 
+
+class RepairedDataTests(unittest.TestCase):
+    def test_repaired_library_has_no_actionable_findings(self):
+        result=Audit(ROOT).run()
+        self.assertEqual(result['findings'],[])
+        expected={'metric_basic':392,'metric_optics':314,'unified_overview':71,
+                  'unified':346,'whitworth':30,'pipe7':15,'pipe228':24,
+                  'trapezoidal':143,'cycle':12,'runouts':24,'undercuts':24}
+        for family,count in expected.items():
+            self.assertEqual(result['rows'][family],count,family)
+        self.assertEqual(result['checks']['export_cells'],12587)
+
+    def test_complete_export_contracts(self):
+        from thread_exports import export_spec
+        expected_rows=[79,76,78,81,78,392,314,346,30,15,24,143,12,24,24]
+        paths=sorted((ROOT/'03-ZAVITY').rglob('*.csv'))
+        self.assertEqual(len(paths),15)
+        for path,count in zip(paths,expected_rows):
+            spec=export_spec(path)
+            self.assertEqual(len(spec['rows']),count,str(path))
+            self.assertTrue(all(len(row)==len(spec['columns']) for row in spec['rows']))
+
+    def test_optics_copied_m5_diameters_are_not_exempt(self):
+        audit=Audit(ROOT)
+        path=ROOT/'03-ZAVITY/02-Metricke zavity ISO - pro jemnou mechaniku/example.html'
+        audit.inspect(path,[[cells('4,5','0,35','5,000','4,773','4,621','4,571')]],'')
+        self.assertEqual(len(audit.findings),4)
+        self.assertEqual([f['expected'] for f in audit.findings],[4.5,4.273,4.121,4.071])
+
+    def test_different_undercut_standards_are_not_confused(self):
+        audit=Audit(ROOT)
+        path=ROOT/'03-ZAVITY/09-Drazky/example.html'
+        # ISO 4755 a_min=1.6; DIN type A g1_min=2.1 is a different design.
+        row=cells('1','M6; M7','d - 1,6','1,6','3','D + 0,5','4','5,2','2,5','3,7','0,6','0,6')
+        audit.inspect(path,[[row]],'')
+        self.assertEqual(audit.findings,[])
+        row[3]['text']='2,1'
+        audit.inspect(path,[[row]],'')
+        self.assertEqual(audit.findings[0]['expected'],1.6)
+
+    def test_external_and_internal_radii_are_independent(self):
+        audit=Audit(ROOT)
+        path=ROOT/'03-ZAVITY/09-Drazky/example.html'
+        row=cells('4,5','M42; M45','d - 6,4','8','13,5','D + 0,5','18','23','11','16','2','2')
+        audit.inspect(path,[[row]],'')
+        self.assertEqual([(f['field'],f['expected']) for f in audit.findings],[('R vnější',2.5)])
+
+    def check_bad_csv(self, transform, field):
+        import csv
+        from thread_exports import export_spec
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp)
+            directory=root/'03-ZAVITY/02-Palcove zavity ISO - zakladni rozmery'
+            directory.mkdir(parents=True)
+            source=next((ROOT/'03-ZAVITY').glob('03-Palcove*/02-Palcove*/0000-index/index_cs.html'))
+            (directory/'index_cs.html').write_bytes(source.read_bytes())
+            path=directory/'tabulka.csv'
+            rows=transform(export_spec(path)['rows'])
+            with path.open('w',encoding='utf8',newline='') as stream:
+                csv.writer(stream,delimiter='\t',lineterminator='\n').writerows(rows)
+            audit=Audit(root);audit.exports([path])
+            self.assertIn(field,[f['field'] for f in audit.findings])
+
+    def test_missing_csv_row_is_a_failure(self):
+        self.check_bad_csv(lambda rows: rows[:-1], 'Počet řádků CSV')
+
+    def test_extra_csv_column_is_a_failure(self):
+        self.check_bad_csv(lambda rows: [rows[0]+['unexpected']]+rows[1:], 'Počet sloupců CSV')
+
+    def test_changed_csv_value_is_a_failure(self):
+        def mutate(rows):
+            rows[0][6]='999'
+            return rows
+        self.check_bad_csv(mutate, 'CSV / HTML rozdíl')
+
 if __name__=='__main__':
     unittest.main()

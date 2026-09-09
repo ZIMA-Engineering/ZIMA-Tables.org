@@ -3,3 +3,10 @@
 *.rst text eol=lf
 # Preserve the supplied library byte for byte across Windows and Linux.
 data/mechanical-tables/** -text
+
+# Legacy HTML keeps CRLF; TSV trailing tabs are intentional empty fields.
+data/mechanical-tables/** whitespace=cr-at-eol
+data/mechanical-tables/**/*.csv whitespace=-blank-at-eol,cr-at-eol
+
+.gitattributes text eol=lf
+docs/**/*.json text eol=lf

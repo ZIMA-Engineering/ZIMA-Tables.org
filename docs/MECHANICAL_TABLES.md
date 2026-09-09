@@ -10,13 +10,18 @@ adresář závitů.
 
 ## Stav validace
 
-Závitové tabulky mají nalezené chyby. Tento import je **původní stav s
-kontrolním protokolem**, nikoli opravená a plně ověřená databáze.
+Doložené chyby závitových tabulek jsou opravené v aktivních HTML a ve všech
+15 CSV. Aktuální audit má nulové nálezy v provedených kontrolách. Historické
+tolerance a konstrukční varianty nejsou automaticky prohlášeny za shodné
+s dnešními normami; přesné meze ověření stanoví protokol.
 
 - [Výsledek kontroly závitů a rozsah ověření](validation/threads-2026-09-09.md)
 - [Úplný seznam nálezů po souborech](validation/thread-findings.md)
 - [Strojově čitelné nálezy](validation/thread-findings.json)
-- [Inventář importu s SHA-256](data-import-2026-09-09.json)
+- [Původní inventář importu s SHA-256](data-import-2026-09-09.json)
+- [Protokol oprav a jejich zdrojů](validation/thread-corrections.json)
+- [Schémata CSV](validation/thread-export-schema.json)
+- [Kontrolní součty opravených souborů](validation/thread-repair-manifest.json)
 
 Ostatní kapitoly byly importovány beze změny; jejich technické hodnoty tento
 audit neověřuje. Ani geometricky správný základní průměr není mezní výrobní
@@ -35,9 +40,11 @@ dat sám neinstaluje ani nespouští Django a nezveřejňuje webovou službu.
 Instalační požadavky původní aplikace v README jsou historické; tento import
 není aktualizací jejího frameworku.
 
-Přípona CSV v původní knihovně nezaručuje plochou tabulku. Část exportů
-obsahuje HTML, část nemá všechny řádky a dva řádky palcového exportu mají
-poškozené oddělovače. Před použitím v programu projděte protokol.
+Všech 15 závitových CSV je nyní skutečná plochá tabulka v UTF-8, oddělená
+tabulátory, bez záhlaví. Sloučené buňky HTML jsou v exportu zopakované.
+Schéma uvádí jednotky i případné vícehodnotové buňky. Tabulka drážek má
+nově 12 sloupců: vnější a vnitřní poloměr jsou oddělené. Ostatní CSV
+v dalších kapitolách nebyla tímto auditem opravována.
 
 ## Opakování auditu
 
@@ -51,10 +58,10 @@ Audit lze spustit i na jiné kopii knihovny:
 
     python tools/thread_audit.py --root "/cesta/ke/knihovne" --json audit.json
 
-Návratový kód auditu **1** znamená potvrzené nálezy v datech; nejde o pád
+Návratový kód auditu **1** znamená chyby, nejasnosti nebo vadný export; nejde o pád
 programu. Kód **0** znamená nepřítomnost těchto nálezů v provedených kontrolách,
 nikoli úplnou certifikaci. Kód **2** znamená chybný vstup.
-Testy nástroje musí skončit úspěšně nezávisle na známých chybách dat.
+Testy kontrolují správnost nástroje i opravená data a záměrně poškozené vstupy.
 
 Původní soubory jsou v .gitattributes označeny -text, aby Git při přenosu
 mezi Windows a Linuxem nezměnil jejich konce řádků. Prázdné složky jsou

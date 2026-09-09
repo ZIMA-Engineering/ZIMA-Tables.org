@@ -1,0 +1,243 @@
+{
+  "baseline_commit": "9ad27d15d988fbfe12b4b8edd4cb781c7ced8557",
+  "files": [
+    {
+      "path": "03-ZAVITY/01-Zavity ISO/0000-index/index_cs.html",
+      "before_sha256": "7baf2263dd211cecbe2995574e8b7880a069edaec0f7e4d7f4f0a844c909adf5",
+      "after_sha256": "adbed5c1b2736105cf7ec6bb2df4c54a4edc050b10e863908642d84d6706e6af",
+      "before_bytes": 1899,
+      "after_bytes": 2097
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/index_cs.html",
+      "before_sha256": "c9b2bb6655cee99554e51d263742a96788bc3b2024c839a8479e34c885125eb5",
+      "after_sha256": "3356c5f4b8e6bf8df3dbea234c549de8bdad31337722e1e108f3727fe6df3ce4",
+      "before_bytes": 10724,
+      "after_bytes": 10728
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/table1.csv",
+      "before_sha256": "4367a1597387279b7b5d14bfec04266f2ff118eea3e9ee19d2534eec29b6d770",
+      "after_sha256": "cdcac583b83e80834231ac028e8a02192657d9f85fd721480ea138b42b56db7e",
+      "before_bytes": 7188,
+      "after_bytes": 2449
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/table2.csv",
+      "before_sha256": "62eda7d5c75673b370457ac4eb2d617a783058bb0dc533e9cec7e6859f9899bd",
+      "after_sha256": "923029010084767cacc58829d7a51b0a9989cb5f0cb173f5cdb697935fdd3a0b",
+      "before_bytes": 8981,
+      "after_bytes": 2407
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/table3.csv",
+      "before_sha256": "03f900215b5e6904c89d9b362938c25d3c732b5afca008d23d54751efc313166",
+      "after_sha256": "c22794e15bb2200eda8ae681fdb23b5936ef95dfde042008bea9037251d28226",
+      "before_bytes": 9139,
+      "after_bytes": 2427
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/table4.csv",
+      "before_sha256": "cf2829346eb3ea73b308da4fb53bd80ff1f63f55ca4d5608d733dc7f34ebc648",
+      "after_sha256": "f665d62340f161b2e49289b6c34f0c2c664667c53dcf6dbc73e1cadedbd4f429",
+      "before_bytes": 2888,
+      "after_bytes": 2748
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/table5.csv",
+      "before_sha256": "b2ccd14ad85ca1b7b62e57da30877587ca412f573c5b9fd73dbd27bb4c6c9a63",
+      "after_sha256": "c165bb689572c4f9f7f36f3ab1b994e3d48c2d740463f03f0ac8eec1bdc55fc3",
+      "before_bytes": 7359,
+      "after_bytes": 2692
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/tabulka.csv",
+      "before_sha256": "692227a09d6a7b53b0918c98d61ee2ccaf9b615de2246b4ed41194adbf95db6d",
+      "after_sha256": "beaf23a55e0efa2f857caaff537104d1731126164bdddf951bbb5a460bdd182e",
+      "before_bytes": 13871,
+      "after_bytes": 14038
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/02-rozmery pro M20 az M48/0000-index/index_cs.html",
+      "before_sha256": "fb9dc781cf43b5a2912b0dc693c877fa77cc5293473d9e2fba8d2e85a12a05ca",
+      "after_sha256": "7361c9a8326455360c1736d26199dca179753063d70140f742f505098e598b27",
+      "before_bytes": 10401,
+      "after_bytes": 10401
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/03-rozmery pro M50 az M82/0000-index/index_cs.html",
+      "before_sha256": "cac8cd971603513b7f8005fbe861492a105af00c8b7881eb8e9130bf49a431c2",
+      "after_sha256": "db9a954eb97f877c936757713a22bb0e7bc74b541f747812bb13c3ce8a9cf531",
+      "before_bytes": 10350,
+      "after_bytes": 10351
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/04-rozmery pro M85 az M175/0000-index/index_cs.html",
+      "before_sha256": "89d3092cb368ee5244a2f8e7f89e7ed29d64420a65d8c63499dfdddbb3854c04",
+      "after_sha256": "3d2f37de115c789186daf0681c8db961ce92c280689c158ead5a851982fb6e63",
+      "before_bytes": 10919,
+      "after_bytes": 10919
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/05-rozmery pro M180 az M300/0000-index/index_cs.html",
+      "before_sha256": "1b253c505f62b4e9f59420af4fd542ccee0ec110e275d81c6d5b310bbe594e43",
+      "after_sha256": "06edfb12cca83a65540e4af61874cf3e12f55e8ef2e524563ee09a0947391c69",
+      "before_bytes": 10622,
+      "after_bytes": 10622
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "before_sha256": "87a4a0ab7575a837f17df2490798dfc4ded282e6988be23de0122d6eaa5ff1a6",
+      "after_sha256": "639a2d188d918d6def43e77491a26e34fb51f680e0105865acc0141511fd6471",
+      "before_bytes": 36933,
+      "after_bytes": 36936
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/tabulka.csv",
+      "before_sha256": "7570ef7a517e5cd68cb3de2baa88dcbe3364c3c3f2e5636f4402ad2cb90166ea",
+      "after_sha256": "8ca94ce5c9612e820298ad4591873d6036d16596db66f4cbd68483b3e5aeb351",
+      "before_bytes": 2602,
+      "after_bytes": 11118
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/03-Metricke zavity ISO - tolerovani/0000-index/index_cs.html",
+      "before_sha256": "d13d3e4156492dba1f058e26fec39abebd883e427d6aede9195485772933c284",
+      "after_sha256": "7ac028096134fb1d2e2fb3e70c0178b6c8271fd147bbef3df824a6476fcdb75a",
+      "before_bytes": 12410,
+      "after_bytes": 12410
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/03-Metricke zavity ISO - tolerovani/05-Tolerancni znacky pro ulozeni prechodna/0000-index/index_cs.html",
+      "before_sha256": "49e763cb903dcacbfc4504d6b1775fd0f075ce60467353197656943747830bfe",
+      "after_sha256": "7c26764853aa7a116740829b3483d0c386857ccf04c0142372d35f75f7bfb396",
+      "before_bytes": 1960,
+      "after_bytes": 1960
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/03-Metricke zavity ISO - tolerovani/06-Kombinace tolerancnich poli pro ulozeni prechodna/0000-index/index_cs.html",
+      "before_sha256": "54cb353a83b9689e95fe662abb92cda42c29ba22d18659183e604f9048a2d090",
+      "after_sha256": "636afb3aa9a3bbe421850a5225dc844da0fcbe487ac0d8e9a0bc722a790dcd56",
+      "before_bytes": 3044,
+      "after_bytes": 3044
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/0000-index/index_cs.html",
+      "before_sha256": "b66033dfb3062cfcc61d96aed7352753b8eb8f755cffdfbc5c0947199d84d662",
+      "after_sha256": "7315449fde39f80290b877fbe9d7322182f960c0f32dac87cd7cac82b5bdf444",
+      "before_bytes": 1758,
+      "after_bytes": 1999
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "before_sha256": "b3d08e8b8431d0300c5aeb06fd31faa73583c8f7d2c5cda177358ec3d1fa461d",
+      "after_sha256": "b83d277379c9e282fa61b0f7e3636bac7bcb4cdb00427156aa6d9d99b26637c1",
+      "before_bytes": 23941,
+      "after_bytes": 23986
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "before_sha256": "9ed85f5e1d76c66c6fc47a2e481abc6c33d478fd6b937e4c0388c1a960a7b23b",
+      "after_sha256": "c5edbe913b4e61d24fb34437ba0b5468b55a937cfed7c2ec6a6eaaed474063f3",
+      "before_bytes": 58896,
+      "after_bytes": 58896
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/tabulka.csv",
+      "before_sha256": "67ea641d235b49da965c4b04ef4e0cf5e6b6dd7aa20f619717e62fa7d2acaddf",
+      "after_sha256": "cbf805a2606765b7d964d6ebef73eb1714ff5f6e9ceacacce335d09cfb3856a8",
+      "before_bytes": 21237,
+      "after_bytes": 22494
+    },
+    {
+      "path": "03-ZAVITY/04-Whitworthovy zavity/0000-index/index_cs.html",
+      "before_sha256": "ed8a6356740bbdccc9a04189c3eddbd29e2e58de46ac671b4de8a456c296b055",
+      "after_sha256": "320f5097229d90fb0c67c8d0b5b6b7f767aff69639256b8cba42c29a434cf561",
+      "before_bytes": 9327,
+      "after_bytes": 9329
+    },
+    {
+      "path": "03-ZAVITY/04-Whitworthovy zavity/0000-index/tabulka.csv",
+      "before_sha256": "44fba3a1494cf44d6109f12ed90c712115fad154bf7587c7758e9f37502e0031",
+      "after_sha256": "6ceced7bade9ce390f19de04bcb7694218ecde9a43ebd41f215c9ff5e964cce7",
+      "before_bytes": 2907,
+      "after_bytes": 2740
+    },
+    {
+      "path": "03-ZAVITY/05-Trubkove zavity ISO/01-Rozmery trubkovych zavitu podle ISO 7 pro spoje tesnici mezi boky/0000-index/tabulka.csv",
+      "before_sha256": "6a9a5aaba6c55296144c0fe67b42d958c48dc5c5b75c0682457b2a0eead738f2",
+      "after_sha256": "3ab998d569b747ab8fdcfc2b508bd19050ee5e7ccb46cf52f94f463fd69ff8e1",
+      "before_bytes": 746,
+      "after_bytes": 1005
+    },
+    {
+      "path": "03-ZAVITY/05-Trubkove zavity ISO/02-Rozmery trubkovĂ˝ch zavitu podle ISO 228 pro spoje netesnici mezi boky/0000-index/index_cs.html",
+      "before_sha256": "b39b9a670e1f01ed140af5e56045867261046de99e64daf1fda6346ea57abed2",
+      "after_sha256": "f47acb4676cad9d82542f8256dde7b5de3663b86bf3e34d536a7d02fb1fd1b9b",
+      "before_bytes": 4838,
+      "after_bytes": 4838
+    },
+    {
+      "path": "03-ZAVITY/05-Trubkove zavity ISO/02-Rozmery trubkovĂ˝ch zavitu podle ISO 228 pro spoje netesnici mezi boky/0000-index/tabulka.csv",
+      "before_sha256": "ed000780d77efd1c4d4207a6733458f851616369042aefd197ea48168420162f",
+      "after_sha256": "1961d45aa8dc4921ec55b813375f001c109fb6efe3018f0e4dfc3851b2361eb0",
+      "before_bytes": 666,
+      "after_bytes": 643
+    },
+    {
+      "path": "03-ZAVITY/06-Lichobeznikove zavity/01-Lichobeznikove zavity - zakladni rozmery/0000-index/index_cs.html",
+      "before_sha256": "3c77532b43dba59f4ba3ab3b69e2996d64a7b0d9574aa35c04989b736f633084",
+      "after_sha256": "9a74e2e8be93873cec2d086454a5e678920703674d53ac6000fdb7188119d2eb",
+      "before_bytes": 34770,
+      "after_bytes": 34765
+    },
+    {
+      "path": "03-ZAVITY/06-Lichobeznikove zavity/01-Lichobeznikove zavity - zakladni rozmery/0000-index/tabulka.csv",
+      "before_sha256": "236cd836e81d9a5d310238db834e057c795f846c63dbe36c53b93484fc2b1d36",
+      "after_sha256": "c5a6135a8e47d81ad8f86e50c89f07dd312dd022dd530bfb76f94c7fe44d06a9",
+      "before_bytes": 9679,
+      "after_bytes": 7401
+    },
+    {
+      "path": "03-ZAVITY/07-Zvlastni zavity uzivane na jizdnich kolech/0000-index/index_cs.html",
+      "before_sha256": "1a78aa5a8b03ffe49cc9491eb6ac1dd5cca7e627238e41f075d8d47fb98d6f8d",
+      "after_sha256": "af432bd21f982fbe8e27b83ec35fba857cdeaf7489061dea5a67a2f91df48503",
+      "before_bytes": 3904,
+      "after_bytes": 3898
+    },
+    {
+      "path": "03-ZAVITY/07-Zvlastni zavity uzivane na jizdnich kolech/0000-index/tabulka.csv",
+      "before_sha256": "8f521ba537a1095925e861b5516fdd125903221031334843e0e8744d47866a43",
+      "after_sha256": "8f40fbc0ed0e9c480c0601c9912b8ada536e0ac36b8d22735384fb3969fff3a9",
+      "before_bytes": 466,
+      "after_bytes": 479
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "before_sha256": "a89182be19fb181800e9c9f3e7c95bd48a22922aa86704a0ccf12d7a10148be4",
+      "after_sha256": "791e72944ad3da9792bb7560c18a1da438038f71a2e1aefda59371ecb252b6bb",
+      "before_bytes": 5889,
+      "after_bytes": 6599
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/tabulka.csv",
+      "before_sha256": "5190d57d93b641261b981042ce318731a6cd82eb3dce60f9a83f0df5d21ad130",
+      "after_sha256": "68f59a89474872ceacba9e58d12ac0b921fc2489d2148fe32ef0fef958cf66e1",
+      "before_bytes": 952,
+      "after_bytes": 993
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "before_sha256": "3e42a6a1d29a572468e8cf1ea16e3e694d503ffd24ce940b0f3067b47430c12a",
+      "after_sha256": "a09b6973b9c642e794087ed2acdfce26b9541bb9648ed9b897ec17fffe28a1c0",
+      "before_bytes": 5823,
+      "after_bytes": 7422
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/tabulka.csv",
+      "before_sha256": "093665806602856f59f420701c8d55d7bacb671033d60136e7590856125776f2",
+      "after_sha256": "68209ee669bf08685f898ec248cd8cf61510f6b1175b36663fad9902bf5e2b1b",
+      "before_bytes": 1240,
+      "after_bytes": 1355
+    }
+  ]
+}

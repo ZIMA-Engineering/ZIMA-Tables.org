@@ -1,0 +1,3856 @@
+{
+  "schema_version": 1,
+  "baseline_commit": "9ad27d15d988fbfe12b4b8edd4cb781c7ced8557",
+  "changes": [
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/index_cs.html",
+      "line": 56,
+      "old": "0,739",
+      "new": "0,793",
+      "source": "ISO724",
+      "reason": "d3 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/index_cs.html",
+      "line": 149,
+      "old": "0,4",
+      "new": "0,450",
+      "source": "GUEHRING",
+      "reason": "P hrubé řady"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/index_cs.html",
+      "line": 188,
+      "old": "M 3×0,24",
+      "new": "M 3 × 0,35",
+      "source": "LOCAL",
+      "reason": "Rozteč v označení"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/index_cs.html",
+      "line": 311,
+      "old": "5,675",
+      "new": "6,675",
+      "source": "ISO724",
+      "reason": "D2 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/index_cs.html",
+      "line": 343,
+      "old": "6,675",
+      "new": "7,675",
+      "source": "ISO724",
+      "reason": "D2 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/index_cs.html",
+      "line": 632,
+      "old": "14,546",
+      "new": "15,546",
+      "source": "ISO724",
+      "reason": "d3 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/02-rozmery pro M20 az M48/0000-index/index_cs.html",
+      "line": 41,
+      "old": "26,933",
+      "new": "16,933",
+      "source": "ISO724",
+      "reason": "d3 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/02-rozmery pro M20 az M48/0000-index/index_cs.html",
+      "line": 161,
+      "old": "22,733",
+      "new": "22,773",
+      "source": "ISO724",
+      "reason": "d3 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/02-rozmery pro M20 az M48/0000-index/index_cs.html",
+      "line": 217,
+      "old": "25,546",
+      "new": "24,546",
+      "source": "ISO724",
+      "reason": "d3 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/02-rozmery pro M20 az M48/0000-index/index_cs.html",
+      "line": 305,
+      "old": "27,773",
+      "new": "28,773",
+      "source": "ISO724",
+      "reason": "d3 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/03-rozmery pro M50 az M82/0000-index/index_cs.html",
+      "line": 249,
+      "old": "57,54",
+      "new": "57,546",
+      "source": "ISO724",
+      "reason": "d3 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/03-rozmery pro M50 az M82/0000-index/index_cs.html",
+      "line": 513,
+      "old": "70,779",
+      "new": "70,773",
+      "source": "ISO724",
+      "reason": "d3 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/03-rozmery pro M50 az M82/0000-index/index_cs.html",
+      "line": 593,
+      "old": "73,773",
+      "new": "74,773",
+      "source": "ISO724",
+      "reason": "d3 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/04-rozmery pro M85 az M175/0000-index/index_cs.html",
+      "line": 56,
+      "old": "71,319",
+      "new": "81,319",
+      "source": "ISO724",
+      "reason": "d3 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/04-rozmery pro M85 az M175/0000-index/index_cs.html",
+      "line": 64,
+      "old": "85,546",
+      "new": "82,546",
+      "source": "ISO724",
+      "reason": "d3 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/04-rozmery pro M85 az M175/0000-index/index_cs.html",
+      "line": 127,
+      "old": "82,402",
+      "new": "92,402",
+      "source": "ISO724",
+      "reason": "D2 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/04-rozmery pro M85 az M175/0000-index/index_cs.html",
+      "line": 312,
+      "old": "113,319",
+      "new": "116,319",
+      "source": "ISO724",
+      "reason": "d3 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/04-rozmery pro M85 az M175/0000-index/index_cs.html",
+      "line": 430,
+      "old": "132,735",
+      "new": "132,835",
+      "source": "ISO724",
+      "reason": "D1 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/04-rozmery pro M85 az M175/0000-index/index_cs.html",
+      "line": 518,
+      "old": "143,506",
+      "new": "143,505",
+      "source": "ISO724",
+      "reason": "D1 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/04-rozmery pro M85 az M175/0000-index/index_cs.html",
+      "line": 582,
+      "old": "153,506",
+      "new": "153,505",
+      "source": "ISO724",
+      "reason": "D1 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/04-rozmery pro M85 az M175/0000-index/index_cs.html",
+      "line": 638,
+      "old": "163,506",
+      "new": "163,505",
+      "source": "ISO724",
+      "reason": "D1 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/05-rozmery pro M180 az M300/0000-index/index_cs.html",
+      "line": 45,
+      "old": "173,506",
+      "new": "173,505",
+      "source": "ISO724",
+      "reason": "D1 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/05-rozmery pro M180 az M300/0000-index/index_cs.html",
+      "line": 159,
+      "old": "196,639",
+      "new": "192,639",
+      "source": "ISO724",
+      "reason": "d3 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/05-rozmery pro M180 az M300/0000-index/index_cs.html",
+      "line": 175,
+      "old": "192,319",
+      "new": "196,319",
+      "source": "ISO724",
+      "reason": "d3 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/05-rozmery pro M180 az M300/0000-index/index_cs.html",
+      "line": 437,
+      "old": "243,506",
+      "new": "243,505",
+      "source": "ISO724",
+      "reason": "D1 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/05-rozmery pro M180 az M300/0000-index/index_cs.html",
+      "line": 485,
+      "old": "253,506",
+      "new": "253,505",
+      "source": "ISO724",
+      "reason": "D1 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/05-rozmery pro M180 az M300/0000-index/index_cs.html",
+      "line": 525,
+      "old": "263,506",
+      "new": "263,505",
+      "source": "ISO724",
+      "reason": "D1 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/05-rozmery pro M180 az M300/0000-index/index_cs.html",
+      "line": 527,
+      "old": "252,639",
+      "new": "262,639",
+      "source": "ISO724",
+      "reason": "d3 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/05-rozmery pro M180 az M300/0000-index/index_cs.html",
+      "line": 565,
+      "old": "273,506",
+      "new": "273,505",
+      "source": "ISO724",
+      "reason": "D1 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/05-rozmery pro M180 az M300/0000-index/index_cs.html",
+      "line": 615,
+      "old": "290,093",
+      "new": "285,093",
+      "source": "ISO724",
+      "reason": "d3 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "line": 164,
+      "old": "035",
+      "new": "0,350",
+      "source": "ISO724",
+      "reason": "P [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "line": 854,
+      "old": "27,877",
+      "new": "27,887",
+      "source": "ISO724",
+      "reason": "d3 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "line": 939,
+      "old": "32,350",
+      "new": "31,350",
+      "source": "ISO724",
+      "reason": "D2 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "line": 963,
+      "old": "23,500",
+      "new": "32,500",
+      "source": "LOCAL",
+      "reason": "d = jmenovitý průměr [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "line": 964,
+      "old": "23,175",
+      "new": "32,175",
+      "source": "ISO724",
+      "reason": "D2 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "line": 1042,
+      "old": "34,1188",
+      "new": "34,188",
+      "source": "ISO724",
+      "reason": "D1 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "line": 1153,
+      "old": "39,959",
+      "new": "37,959",
+      "source": "ISO724",
+      "reason": "D1 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "line": 1161,
+      "old": "28,513",
+      "new": "38,513",
+      "source": "ISO724",
+      "reason": "D2 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "line": 1222,
+      "old": "39,375",
+      "new": "39,376",
+      "source": "ISO724",
+      "reason": "D1 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "line": 1392,
+      "old": "44917",
+      "new": "44,917",
+      "source": "ISO724",
+      "reason": "D1 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "line": 1426,
+      "old": "45,959",
+      "new": "45,376",
+      "source": "ISO724",
+      "reason": "D1 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "line": 1427,
+      "old": "45,887",
+      "new": "45,160",
+      "source": "ISO724",
+      "reason": "d3 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "line": 1570,
+      "old": "49,717",
+      "new": "49,917",
+      "source": "ISO724",
+      "reason": "D1 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "line": 1610,
+      "old": "42,000",
+      "new": "52,000",
+      "source": "LOCAL",
+      "reason": "d = jmenovitý průměr [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "line": 1687,
+      "old": "53513",
+      "new": "53,513",
+      "source": "ISO724",
+      "reason": "D2 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "line": 1780,
+      "old": "46,459",
+      "new": "56,459",
+      "source": "ISO724",
+      "reason": "D1 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "line": 1781,
+      "old": "46,387",
+      "new": "56,387",
+      "source": "ISO724",
+      "reason": "d3 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "line": 2333,
+      "old": "90,778",
+      "new": "90,773",
+      "source": "ISO724",
+      "reason": "d3 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "line": 2442,
+      "old": "99,947",
+      "new": "99,917",
+      "source": "ISO724",
+      "reason": "D1 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "line": 2527,
+      "old": "104,517",
+      "new": "104,917",
+      "source": "ISO724",
+      "reason": "D1 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "line": 2700,
+      "old": "128,778",
+      "new": "128,773",
+      "source": "ISO724",
+      "reason": "d3 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/0000-index/index_cs.html",
+      "line": 50,
+      "old": "Mezní rozměry středního průměru závitu",
+      "new": "Mezní rozměry malého průměru závitu",
+      "source": "ISO725",
+      "reason": "Popis průměru"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 937,
+      "old": "3,3750",
+      "new": "3,6250",
+      "source": "LOCAL",
+      "reason": "d [in], podle smíšeného čísla"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 39,
+      "old": "[mm]",
+      "new": "[in]",
+      "source": "ISO725",
+      "reason": "Jednotka D2/D1"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 40,
+      "old": "[mm]",
+      "new": "[in]",
+      "source": "ISO725",
+      "reason": "Jednotka D2/D1"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 210,
+      "old": "0,7055",
+      "new": "0,7056",
+      "source": "NIST",
+      "reason": "P [mm]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 212,
+      "old": "4,1565",
+      "new": "4,1656",
+      "source": "NIST",
+      "reason": "d [mm]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 237,
+      "old": "0.1561",
+      "new": "0.1562",
+      "source": "ISO725",
+      "reason": "D1 [in]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 517,
+      "old": "0.4784",
+      "new": "0.4768",
+      "source": "ISO725",
+      "reason": "D2 [in]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 615,
+      "old": "2,3090",
+      "new": "2,3091",
+      "source": "NIST",
+      "reason": "P [mm]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 1099,
+      "old": "1.9272",
+      "new": "0.9272",
+      "source": "ISO725",
+      "reason": "D1 [in]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 1110,
+      "old": "1.9723",
+      "new": "0.9723",
+      "source": "ISO725",
+      "reason": "D1 [in]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 1121,
+      "old": "1.9948",
+      "new": "0.9948",
+      "source": "ISO725",
+      "reason": "D1 [in]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 1389,
+      "old": "1.7772",
+      "new": "1.1772",
+      "source": "ISO725",
+      "reason": "D1 [in]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 1688,
+      "old": "39,6880",
+      "new": "39,6875",
+      "source": "NIST",
+      "reason": "d [mm]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 1699,
+      "old": "39,6880",
+      "new": "39,6875",
+      "source": "NIST",
+      "reason": "d [mm]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 1710,
+      "old": "39,6880",
+      "new": "39,6875",
+      "source": "NIST",
+      "reason": "d [mm]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 1721,
+      "old": "39,6880",
+      "new": "39,6875",
+      "source": "NIST",
+      "reason": "d [mm]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 1732,
+      "old": "39,6880",
+      "new": "39,6875",
+      "source": "NIST",
+      "reason": "d [mm]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 1743,
+      "old": "39,6880",
+      "new": "39,6875",
+      "source": "NIST",
+      "reason": "d [mm]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 1822,
+      "old": "42,8630",
+      "new": "42,8625",
+      "source": "NIST",
+      "reason": "d [mm]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 1833,
+      "old": "42,8630",
+      "new": "42,8625",
+      "source": "NIST",
+      "reason": "d [mm]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 1844,
+      "old": "42,8630",
+      "new": "42,8625",
+      "source": "NIST",
+      "reason": "d [mm]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 1855,
+      "old": "42,8630",
+      "new": "42,8625",
+      "source": "NIST",
+      "reason": "d [mm]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 1866,
+      "old": "42,8630",
+      "new": "42,8625",
+      "source": "NIST",
+      "reason": "d [mm]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 1877,
+      "old": "42,8630",
+      "new": "42,8625",
+      "source": "NIST",
+      "reason": "d [mm]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 1956,
+      "old": "46,0380",
+      "new": "46,0375",
+      "source": "NIST",
+      "reason": "d [mm]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 1967,
+      "old": "16,0380",
+      "new": "46,0375",
+      "source": "NIST",
+      "reason": "d [mm]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 1978,
+      "old": "46,0380",
+      "new": "46,0375",
+      "source": "NIST",
+      "reason": "d [mm]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 1989,
+      "old": "46,0380",
+      "new": "46,0375",
+      "source": "NIST",
+      "reason": "d [mm]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 1999,
+      "old": "1.8750",
+      "new": "1.8125",
+      "source": "NIST",
+      "reason": "d [in]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 2000,
+      "old": "46,0380",
+      "new": "46,0375",
+      "source": "NIST",
+      "reason": "d [mm]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 2025,
+      "old": "1.7379",
+      "new": "1.7397",
+      "source": "ISO725",
+      "reason": "D1 [in]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 2170,
+      "old": "0.0709",
+      "new": "2.0709",
+      "source": "ISO725",
+      "reason": "D1 [in]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 2538,
+      "old": "2.8109",
+      "new": "2.8209",
+      "source": "ISO725",
+      "reason": "D2 [in]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 2560,
+      "old": "8.8425",
+      "new": "2.8425",
+      "source": "ISO725",
+      "reason": "D2 [in]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 2572,
+      "old": "2.9376",
+      "new": "2.8376",
+      "source": "ISO725",
+      "reason": "D2 [in]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 2696,
+      "old": "3.9794",
+      "new": "2.9794",
+      "source": "ISO725",
+      "reason": "D1 [in]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 2718,
+      "old": "3.1174",
+      "new": "3.1147",
+      "source": "ISO725",
+      "reason": "D1 [in]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 2931,
+      "old": "3.9646",
+      "new": "3.6946",
+      "source": "ISO725",
+      "reason": "D1 [in]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 3187,
+      "old": "4.3349",
+      "new": "4.3344",
+      "source": "ISO725",
+      "reason": "D2 [in]"
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "line": 3603,
+      "old": "5.1956",
+      "new": "5.1946",
+      "source": "ISO725",
+      "reason": "D1 [in]"
+    },
+    {
+      "path": "03-ZAVITY/04-Whitworthovy zavity/0000-index/index_cs.html",
+      "line": 134,
+      "old": "11",
+      "new": "12",
+      "source": "VOLKEL",
+      "reason": "Počet závitů na palec"
+    },
+    {
+      "path": "03-ZAVITY/04-Whitworthovy zavity/0000-index/index_cs.html",
+      "line": 149,
+      "old": "10",
+      "new": "11",
+      "source": "VOLKEL",
+      "reason": "Počet závitů na palec"
+    },
+    {
+      "path": "03-ZAVITY/04-Whitworthovy zavity/0000-index/index_cs.html",
+      "line": 164,
+      "old": "9",
+      "new": "10",
+      "source": "VOLKEL",
+      "reason": "Počet závitů na palec"
+    },
+    {
+      "path": "03-ZAVITY/04-Whitworthovy zavity/0000-index/index_cs.html",
+      "line": 435,
+      "old": "8,468",
+      "new": "8,467",
+      "source": "NIST",
+      "reason": "P [mm]"
+    },
+    {
+      "path": "03-ZAVITY/05-Trubkove zavity ISO/02-Rozmery trubkovĂ˝ch zavitu podle ISO 228 pro spoje netesnici mezi boky/0000-index/index_cs.html",
+      "line": 113,
+      "old": "20,581",
+      "new": "20,587",
+      "source": "ISO228",
+      "reason": "D1 [mm]"
+    },
+    {
+      "path": "03-ZAVITY/06-Lichobeznikove zavity/01-Lichobeznikove zavity - zakladni rozmery/0000-index/index_cs.html",
+      "line": 42,
+      "old": "5",
+      "new": "6",
+      "source": "ISO2901",
+      "reason": "Počet chodů n"
+    },
+    {
+      "path": "03-ZAVITY/06-Lichobeznikove zavity/01-Lichobeznikove zavity - zakladni rozmery/0000-index/index_cs.html",
+      "line": 43,
+      "old": "6",
+      "new": "8",
+      "source": "ISO2901",
+      "reason": "Počet chodů n"
+    },
+    {
+      "path": "03-ZAVITY/06-Lichobeznikove zavity/01-Lichobeznikove zavity - zakladni rozmery/0000-index/index_cs.html",
+      "line": 573,
+      "old": "Tr 28 &times; 4",
+      "new": "Tr 28 × 3",
+      "source": "LOCAL",
+      "reason": "Označení"
+    },
+    {
+      "path": "03-ZAVITY/06-Lichobeznikove zavity/01-Lichobeznikove zavity - zakladni rozmery/0000-index/index_cs.html",
+      "line": 1053,
+      "old": "32",
+      "new": "36",
+      "source": "ISO2901",
+      "reason": "Ph pro 3 chodů [mm]"
+    },
+    {
+      "path": "03-ZAVITY/06-Lichobeznikove zavity/01-Lichobeznikove zavity - zakladni rozmery/0000-index/index_cs.html",
+      "line": 1102,
+      "old": "32",
+      "new": "36",
+      "source": "ISO2901",
+      "reason": "Ph pro 3 chodů [mm]"
+    },
+    {
+      "path": "03-ZAVITY/06-Lichobeznikove zavity/01-Lichobeznikove zavity - zakladni rozmery/0000-index/index_cs.html",
+      "line": 1864,
+      "old": "16",
+      "new": "18",
+      "source": "ISO2901",
+      "reason": "Ph pro 1 chodů [mm]"
+    },
+    {
+      "path": "03-ZAVITY/07-Zvlastni zavity uzivane na jizdnich kolech/0000-index/index_cs.html",
+      "line": 73,
+      "old": "7,9 &times; 56",
+      "new": "7,9 × 26",
+      "source": "CYCLE",
+      "reason": "Označení"
+    },
+    {
+      "path": "03-ZAVITY/07-Zvlastni zavity uzivane na jizdnich kolech/0000-index/index_cs.html",
+      "line": 74,
+      "old": "56",
+      "new": "26",
+      "source": "CYCLE",
+      "reason": "Počet závitů na palec"
+    },
+    {
+      "path": "03-ZAVITY/07-Zvlastni zavity uzivane na jizdnich kolech/0000-index/index_cs.html",
+      "line": 105,
+      "old": "1,0580",
+      "new": "1,0583",
+      "source": "NIST",
+      "reason": "P [mm]"
+    },
+    {
+      "path": "03-ZAVITY/07-Zvlastni zavity uzivane na jizdnich kolech/0000-index/index_cs.html",
+      "line": 115,
+      "old": "1,0580",
+      "new": "1,0583",
+      "source": "NIST",
+      "reason": "P [mm]"
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "line": 64,
+      "old": "5,000",
+      "new": "4,500",
+      "source": "ISO724",
+      "reason": "M4,5×0,35: remove diameters copied from the adjacent M5 row."
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "line": 65,
+      "old": "4,773",
+      "new": "4,273",
+      "source": "ISO724",
+      "reason": "M4,5×0,35: remove diameters copied from the adjacent M5 row."
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "line": 66,
+      "old": "4,621",
+      "new": "4,121",
+      "source": "ISO724",
+      "reason": "M4,5×0,35: remove diameters copied from the adjacent M5 row."
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "line": 67,
+      "old": "4,571",
+      "new": "4,071",
+      "source": "ISO724",
+      "reason": "M4,5×0,35: remove diameters copied from the adjacent M5 row."
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/03-Metricke zavity ISO - tolerovani/0000-index/index_cs.html",
+      "line": 447,
+      "old": "4j6k",
+      "new": "4j6g",
+      "source": "DRASTIK103",
+      "reason": "Verified source handbook page 103."
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/03-Metricke zavity ISO - tolerovani/0000-index/index_cs.html",
+      "line": 519,
+      "old": "4H6J",
+      "new": "4H6H",
+      "source": "DRASTIK103",
+      "reason": "Verified source handbook page 103."
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/03-Metricke zavity ISO - tolerovani/05-Tolerancni znacky pro ulozeni prechodna/0000-index/index_cs.html",
+      "line": 52,
+      "old": "4j6k",
+      "new": "4j6g",
+      "source": "DRASTIK103",
+      "reason": "Verified source handbook page 103."
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/03-Metricke zavity ISO - tolerovani/06-Kombinace tolerancnich poli pro ulozeni prechodna/0000-index/index_cs.html",
+      "line": 58,
+      "old": "4H6J",
+      "new": "4H6H",
+      "source": "DRASTIK103",
+      "reason": "Verified source handbook page 103."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/0000-index/index_cs.html",
+      "line": 36,
+      "old": "PD 0.4485 - 0.4422",
+      "new": "PD max. – min.",
+      "source": "ISO725",
+      "reason": "The original handbook example also exceeds the 1/4-inch major diameter; show notation without invented limit dimensions."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/0000-index/index_cs.html",
+      "line": 51,
+      "old": "",
+      "new": "<p><strong>Příklad SE:</strong> PD max. – min. označuje mezní rozměry středního průměru v palcích. Číselné meze se musí stanovit pro konkrétní závit, třídu přesnosti a délku zašroubování LE; zde nejsou předepsány.</p>\n",
+      "source": "ISO725",
+      "reason": "Explain symbolic limits in the corrected example."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 460,
+      "old": "11/16",
+      "new": "1 1/16",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 476,
+      "old": "11/8",
+      "new": "1 1/8",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 494,
+      "old": "13/16",
+      "new": "1 3/16",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 510,
+      "old": "11/4",
+      "new": "1 1/4",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 528,
+      "old": "15/16",
+      "new": "1 5/16",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 544,
+      "old": "13/8",
+      "new": "1 3/8",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 562,
+      "old": "17/16",
+      "new": "1 7/16",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 578,
+      "old": "11/2",
+      "new": "1 1/2",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 596,
+      "old": "19/16",
+      "new": "1 9/16",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 612,
+      "old": "15/8",
+      "new": "1 5/8",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 630,
+      "old": "111/16",
+      "new": "1 11/16",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 646,
+      "old": "13/4",
+      "new": "1 3/4",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 664,
+      "old": "113/16",
+      "new": "1 13/16",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 680,
+      "old": "17/8",
+      "new": "1 7/8",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 698,
+      "old": "115/16",
+      "new": "1 15/16",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 717,
+      "old": "41/2",
+      "new": "4 1/2",
+      "source": "LOCAL",
+      "reason": "4½ threads per inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 732,
+      "old": "21/8",
+      "new": "2 1/8",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 748,
+      "old": "21/4",
+      "new": "2 1/4",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 751,
+      "old": "41/2",
+      "new": "4 1/2",
+      "source": "LOCAL",
+      "reason": "4½ threads per inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 766,
+      "old": "23/8",
+      "new": "2 3/8",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 782,
+      "old": "21/2",
+      "new": "2 1/2",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 800,
+      "old": "25/8",
+      "new": "2 5/8",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 816,
+      "old": "23/4",
+      "new": "2 3/4",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 834,
+      "old": "27/8",
+      "new": "2 7/8",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 868,
+      "old": "31/8",
+      "new": "3 1/8",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 884,
+      "old": "31/4",
+      "new": "3 1/4",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 902,
+      "old": "33/8",
+      "new": "3 3/8",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 918,
+      "old": "31/2",
+      "new": "3 1/2",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 936,
+      "old": "35/8",
+      "new": "3 5/8",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 952,
+      "old": "33/4",
+      "new": "3 3/4",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 970,
+      "old": "37/8",
+      "new": "3 7/8",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 1004,
+      "old": "41/8",
+      "new": "4 1/8",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 1020,
+      "old": "41/4",
+      "new": "4 1/4",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 1038,
+      "old": "43/8",
+      "new": "4 3/8",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 1054,
+      "old": "41/2",
+      "new": "4 1/2",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 1072,
+      "old": "45/8",
+      "new": "4 5/8",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 1088,
+      "old": "43/4",
+      "new": "4 3/4",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 1106,
+      "old": "47/8",
+      "new": "4 7/8",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 1140,
+      "old": "51/8",
+      "new": "5 1/8",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 1156,
+      "old": "51/4",
+      "new": "5 1/4",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 1174,
+      "old": "53/8",
+      "new": "5 3/8",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 1190,
+      "old": "51/2",
+      "new": "5 1/2",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 1208,
+      "old": "55/8",
+      "new": "5 5/8",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 1224,
+      "old": "53/4",
+      "new": "5 3/4",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "line": 1242,
+      "old": "57/8",
+      "new": "5 7/8",
+      "source": "LOCAL",
+      "reason": "Explicit mixed fraction; preserve fractions below 1 inch."
+    },
+    {
+      "path": "03-ZAVITY/04-Whitworthovy zavity/0000-index/index_cs.html",
+      "line": 377,
+      "old": "-90<br>-100",
+      "new": "-90<br>-1000",
+      "source": "DRASTIK119",
+      "reason": "Verified visually in the source handbook, page 119."
+    },
+    {
+      "path": "03-ZAVITY/05-Trubkove zavity ISO/02-Rozmery trubkovĂ˝ch zavitu podle ISO 228 pro spoje netesnici mezi boky/0000-index/index_cs.html",
+      "line": 145,
+      "old": "G1_1/8",
+      "new": "G1 1/8",
+      "source": "LOCAL",
+      "reason": "Unambiguous mixed fraction."
+    },
+    {
+      "path": "03-ZAVITY/07-Zvlastni zavity uzivane na jizdnich kolech/0000-index/index_cs.html",
+      "line": 123,
+      "old": "55°C",
+      "new": "55°",
+      "source": "LOCAL",
+      "reason": "Degrees of angle, not temperature."
+    },
+    {
+      "path": "03-ZAVITY/07-Zvlastni zavity uzivane na jizdnich kolech/0000-index/index_cs.html",
+      "line": 169,
+      "old": "ISO 6669",
+      "new": "ISO 6696",
+      "source": "ISO6696",
+      "reason": "Correct bottom bracket standard."
+    },
+    {
+      "path": "03-ZAVITY/07-Zvlastni zavity uzivane na jizdnich kolech/0000-index/index_cs.html",
+      "line": 123,
+      "old": "colspan=\"8\"",
+      "new": "colspan=\"7\"",
+      "source": "LOCAL",
+      "reason": "Seven table columns."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 58,
+      "old": "-",
+      "new": "0,25",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 72,
+      "old": "-",
+      "new": "0,3",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 85,
+      "old": "0,8",
+      "new": "0,75",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 99,
+      "old": "1",
+      "new": "0,9",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 100,
+      "old": "0,5",
+      "new": "0,45",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 127,
+      "old": "1,2",
+      "new": "1,1",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 141,
+      "old": "1,2",
+      "new": "1,25",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 142,
+      "old": "0,8",
+      "new": "0,7",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 156,
+      "old": "0,8",
+      "new": "0,75",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 169,
+      "old": "1,7",
+      "new": "1,75",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 170,
+      "old": "1",
+      "new": "0,9",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 183,
+      "old": "1,7",
+      "new": "1,9",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 212,
+      "old": "-1,5",
+      "new": "1,25",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 225,
+      "old": "2,5",
+      "new": "3,2",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 226,
+      "old": "1,5",
+      "new": "1,6",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 239,
+      "old": "4",
+      "new": "3,8",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 240,
+      "old": "2",
+      "new": "1,9",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 253,
+      "old": "4",
+      "new": "4,3",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 254,
+      "old": "2",
+      "new": "2,2",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 281,
+      "old": "7",
+      "new": "6,3",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 282,
+      "old": "3",
+      "new": "3,2",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 295,
+      "old": "8",
+      "new": "7,5",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 296,
+      "old": "4",
+      "new": "3,8",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 309,
+      "old": "8",
+      "new": "9",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 310,
+      "old": "4",
+      "new": "4,5",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 337,
+      "old": "12",
+      "new": "11",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 338,
+      "old": "6",
+      "new": "5,5",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 351,
+      "old": "12",
+      "new": "12,5",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 352,
+      "old": "6",
+      "new": "6,3",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 365,
+      "old": "15",
+      "new": "14",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 366,
+      "old": "8",
+      "new": "7",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 380,
+      "old": "8",
+      "new": "7,5",
+      "source": "ISO3508",
+      "reason": "External thread run-out x_max: specified ISO 3508:1976 table, not an inferred sign correction."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 42,
+      "old": "<th>x=2,5.<i>P</i></th>",
+      "new": "<th>x<sub>max</sub> ≈ 2,5 × <i>P</i></th>",
+      "source": "ISO3508",
+      "reason": "Approximate relationship and maximum."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 43,
+      "old": "<th>x≈1,25.<i>P</i></th>",
+      "new": "<th>x<sub>max</sub> ≈ 1,25 × <i>P</i></th>",
+      "source": "ISO3508",
+      "reason": "Maximum and multiplication sign."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "line": 20,
+      "old": "<p>Rozměry v milimetrech</p>",
+      "new": "<p>Rozměry v milimetrech.</p>\n<p><strong>Vnější výběh x:</strong> tabulkové hodnoty podle ISO 3508:1976. Krátký výběh se volí pouze z technických důvodů.\n<strong>Vnitřní výběhy v, u a zkosení z:</strong> historické údaje podle F. Draštíka a kol.,\nStrojnické tabulky pro konstrukci i dílnu, 2. vydání, 1999, s. 131.\nTyto délky se vztahují k původnímu náčrtu; nejsou převodem rozměrů e z DIN 76-1.</p>\n<p>Zdroj vnějších výběhů: <a href=\"https://www.iso.org/standard/8866.html\">ISO 3508:1976</a>.\nHistorický podklad: <a href=\"../../../0000-index/DOC/Strojnické-tabulky.pdf#page=131\">příručka, s. 131</a>.</p>",
+      "source": "ISO3508",
+      "reason": "Separate the verified external standard from the historical internal dimensions."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 63,
+      "old": "0,1",
+      "new": "0,1</td>\n<td>0,1",
+      "source": "ISO4755",
+      "reason": "Separate the external and internal radius columns; P=4.5 requires 2.5 externally and 2 internally."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 71,
+      "old": "0,8",
+      "new": "0,75",
+      "source": "ISO4755",
+      "reason": "External undercut: a = g1_min, b = g2_max from ISO 4755:1983."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 77,
+      "old": "0,12",
+      "new": "0,12</td>\n<td>0,12",
+      "source": "ISO4755",
+      "reason": "Separate the external and internal radius columns; P=4.5 requires 2.5 externally and 2 internally."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 85,
+      "old": "1",
+      "new": "0,9",
+      "source": "ISO4755",
+      "reason": "External undercut: a = g1_min, b = g2_max from ISO 4755:1983."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 91,
+      "old": "0,16",
+      "new": "0,16</td>\n<td>0,16",
+      "source": "ISO4755",
+      "reason": "Separate the external and internal radius columns; P=4.5 requires 2.5 externally and 2 internally."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 99,
+      "old": "1",
+      "new": "1,05",
+      "source": "ISO4755",
+      "reason": "External undercut: a = g1_min, b = g2_max from ISO 4755:1983."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 105,
+      "old": "0,16",
+      "new": "0,16</td>\n<td>0,16",
+      "source": "ISO4755",
+      "reason": "Separate the external and internal radius columns; P=4.5 requires 2.5 externally and 2 internally."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 119,
+      "old": "0,2",
+      "new": "0,2</td>\n<td>0,2",
+      "source": "ISO4755",
+      "reason": "Separate the external and internal radius columns; P=4.5 requires 2.5 externally and 2 internally."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 127,
+      "old": "1,5",
+      "new": "1,35",
+      "source": "ISO4755",
+      "reason": "External undercut: a = g1_min, b = g2_max from ISO 4755:1983."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 133,
+      "old": "0,2",
+      "new": "0,2</td>\n<td>0,2",
+      "source": "ISO4755",
+      "reason": "Separate the external and internal radius columns; P=4.5 requires 2.5 externally and 2 internally."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 147,
+      "old": "0,2",
+      "new": "0,2</td>\n<td>0,2",
+      "source": "ISO4755",
+      "reason": "Separate the external and internal radius columns; P=4.5 requires 2.5 externally and 2 internally."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 155,
+      "old": "2",
+      "new": "1,8",
+      "source": "ISO4755",
+      "reason": "External undercut: a = g1_min, b = g2_max from ISO 4755:1983."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 161,
+      "old": "0,4",
+      "new": "0,4</td>\n<td>0,4",
+      "source": "ISO4755",
+      "reason": "Separate the external and internal radius columns; P=4.5 requires 2.5 externally and 2 internally."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 169,
+      "old": "2",
+      "new": "2,1",
+      "source": "ISO4755",
+      "reason": "External undercut: a = g1_min, b = g2_max from ISO 4755:1983."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 175,
+      "old": "0,4",
+      "new": "0,4</td>\n<td>0,4",
+      "source": "ISO4755",
+      "reason": "Separate the external and internal radius columns; P=4.5 requires 2.5 externally and 2 internally."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 183,
+      "old": "2,5",
+      "new": "2,25",
+      "source": "ISO4755",
+      "reason": "External undercut: a = g1_min, b = g2_max from ISO 4755:1983."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 189,
+      "old": "0,4",
+      "new": "0,4</td>\n<td>0,4",
+      "source": "ISO4755",
+      "reason": "Separate the external and internal radius columns; P=4.5 requires 2.5 externally and 2 internally."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 197,
+      "old": "2,5",
+      "new": "2,4",
+      "source": "ISO4755",
+      "reason": "External undercut: a = g1_min, b = g2_max from ISO 4755:1983."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 203,
+      "old": "0,4",
+      "new": "0,4</td>\n<td>0,4",
+      "source": "ISO4755",
+      "reason": "Separate the external and internal radius columns; P=4.5 requires 2.5 externally and 2 internally."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 217,
+      "old": "0,6",
+      "new": "0,6</td>\n<td>0,6",
+      "source": "ISO4755",
+      "reason": "Separate the external and internal radius columns; P=4.5 requires 2.5 externally and 2 internally."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 223,
+      "old": "d-2",
+      "new": "d - 2",
+      "source": "ISO4755",
+      "reason": "External undercut: a = g1_min, b = g2_max from ISO 4755:1983."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 224,
+      "old": "2,0",
+      "new": "2",
+      "source": "ISO4755",
+      "reason": "External undercut: a = g1_min, b = g2_max from ISO 4755:1983."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 225,
+      "old": "4",
+      "new": "3,75",
+      "source": "ISO4755",
+      "reason": "External undercut: a = g1_min, b = g2_max from ISO 4755:1983."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 231,
+      "old": "0,6",
+      "new": "0,6</td>\n<td>0,6",
+      "source": "ISO4755",
+      "reason": "Separate the external and internal radius columns; P=4.5 requires 2.5 externally and 2 internally."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 237,
+      "old": "d - 2,5",
+      "new": "d - 2,3",
+      "source": "ISO4755",
+      "reason": "External undercut: a = g1_min, b = g2_max from ISO 4755:1983."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 245,
+      "old": "0,8",
+      "new": "0,8</td>\n<td>0,8",
+      "source": "ISO4755",
+      "reason": "Separate the external and internal radius columns; P=4.5 requires 2.5 externally and 2 internally."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 252,
+      "old": "3,0",
+      "new": "3",
+      "source": "ISO4755",
+      "reason": "External undercut: a = g1_min, b = g2_max from ISO 4755:1983."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 253,
+      "old": "6",
+      "new": "5,25",
+      "source": "ISO4755",
+      "reason": "External undercut: a = g1_min, b = g2_max from ISO 4755:1983."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 259,
+      "old": "1",
+      "new": "1</td>\n<td>1",
+      "source": "ISO4755",
+      "reason": "Separate the external and internal radius columns; P=4.5 requires 2.5 externally and 2 internally."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 273,
+      "old": "1",
+      "new": "1</td>\n<td>1",
+      "source": "ISO4755",
+      "reason": "Separate the external and internal radius columns; P=4.5 requires 2.5 externally and 2 internally."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 287,
+      "old": "1,2",
+      "new": "1,2</td>\n<td>1,2",
+      "source": "ISO4755",
+      "reason": "Separate the external and internal radius columns; P=4.5 requires 2.5 externally and 2 internally."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 295,
+      "old": "10",
+      "new": "9",
+      "source": "ISO4755",
+      "reason": "External undercut: a = g1_min, b = g2_max from ISO 4755:1983."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 301,
+      "old": "1,6",
+      "new": "1,6</td>\n<td>1,6",
+      "source": "ISO4755",
+      "reason": "Separate the external and internal radius columns; P=4.5 requires 2.5 externally and 2 internally."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 307,
+      "old": "d-5",
+      "new": "d - 5",
+      "source": "ISO4755",
+      "reason": "External undercut: a = g1_min, b = g2_max from ISO 4755:1983."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 309,
+      "old": "10",
+      "new": "10,5",
+      "source": "ISO4755",
+      "reason": "External undercut: a = g1_min, b = g2_max from ISO 4755:1983."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 315,
+      "old": "1,6",
+      "new": "1,6</td>\n<td>1,6",
+      "source": "ISO4755",
+      "reason": "Separate the external and internal radius columns; P=4.5 requires 2.5 externally and 2 internally."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 323,
+      "old": "12,5",
+      "new": "12",
+      "source": "ISO4755",
+      "reason": "External undercut: a = g1_min, b = g2_max from ISO 4755:1983."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 329,
+      "old": "2",
+      "new": "2</td>\n<td>2",
+      "source": "ISO4755",
+      "reason": "Separate the external and internal radius columns; P=4.5 requires 2.5 externally and 2 internally."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 337,
+      "old": "15",
+      "new": "13,5",
+      "source": "ISO4755",
+      "reason": "External undercut: a = g1_min, b = g2_max from ISO 4755:1983."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 343,
+      "old": "2",
+      "new": "2,5</td>\n<td>2",
+      "source": "ISO4755",
+      "reason": "Separate the external and internal radius columns; P=4.5 requires 2.5 externally and 2 internally."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 357,
+      "old": "2,5",
+      "new": "2,5</td>\n<td>2,5",
+      "source": "ISO4755",
+      "reason": "Separate the external and internal radius columns; P=4.5 requires 2.5 externally and 2 internally."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 365,
+      "old": "18",
+      "new": "17,5",
+      "source": "ISO4755",
+      "reason": "External undercut: a = g1_min, b = g2_max from ISO 4755:1983."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 371,
+      "old": "3,2",
+      "new": "3,2</td>\n<td>3,2",
+      "source": "ISO4755",
+      "reason": "Separate the external and internal radius columns; P=4.5 requires 2.5 externally and 2 internally."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 385,
+      "old": "3,2",
+      "new": "3,2</td>\n<td>3,2",
+      "source": "ISO4755",
+      "reason": "Separate the external and internal radius columns; P=4.5 requires 2.5 externally and 2 internally."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 31,
+      "old": "<th rowspan=\"3\"><i>R</i></th>",
+      "new": "<th rowspan=\"3\"><i>R</i><br>vnější ≈</th>\n<th rowspan=\"3\"><i>R</i><br>vnitřní ≈</th>",
+      "source": "ISO4755",
+      "reason": "Distinct radii for distinct geometries."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 42,
+      "old": "<th><i>d<sub>d</sub></i></th>",
+      "new": "<th><i>d<sub>d</sub></i><br>h12 / h13</th>",
+      "source": "ISO4755",
+      "reason": "h12 up to d=3 mm inclusive; otherwise h13."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 44,
+      "old": "<th><i>b</i></th>",
+      "new": "<th><i>b<sub>max.</sub></i></th>",
+      "source": "ISO4755",
+      "reason": "Maximum length, not a nominal length."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "line": 21,
+      "old": "<p>Rozměry v milimetrech</p>",
+      "new": "<p>Rozměry v milimetrech. Značení odpovídá náčrtu nahoře.</p>\n<p><strong>Vnější drážka:</strong> ISO 4755:1983; a = g<sub>1 min</sub>, b = g<sub>2 max</sub>,\nd<sub>d</sub> = d<sub>g</sub>. Pro d ≤ 3 mm platí h12, pro větší průměry h13.\nŘádek P = 0,2 mm je historické rozšíření podle Draštíka, s. 132, a není řádkem ISO 4755.</p>\n<p><strong>Vnitřní drážka:</strong> historické rozměry A, B, D<sub>d</sub> podle\nF. Draštíka a kol., Strojnické tabulky pro konstrukci i dílnu, 2. vydání, 1999, s. 132.\nZachovávají význam původního náčrtu a jeho záhlaví A<sub>max</sub>, B<sub>min</sub>.\nNejde o rozměry g<sub>1 min</sub>, g<sub>2 max</sub> drážky podle DIN 76-1; jejich meze nelze zaměnit.\nSloupce poloměrů jsou oddělené: pro P = 4,5 mm je vnější R = 2,5 mm, vnitřní R = 2 mm.</p>\n<p>Zdroje: <a href=\"https://www.iso.org/standard/10740.html\">ISO 4755:1983</a>;\n<a href=\"https://api.pageplace.de/preview/DT0400.9783410274964_A35868027/preview-9783410274964_A35868027.pdf\">DIN 76-1:2016, tab. 2</a>;\n<a href=\"../../../0000-index/DOC/Strojnické-tabulky.pdf#page=132\">historické rozšíření, s. 132</a>.</p>",
+      "source": "ISO4755",
+      "reason": "Identify the correct standards and dimensional contracts instead of treating unlike DIN columns as errors."
+    },
+    {
+      "path": "03-ZAVITY/01-Zavity ISO/0000-index/index_cs.html",
+      "line": 41,
+      "old": "<ul>\r\n<li>H=1/2P.sqrt(3)=0,5.n.sqrt(3)=P.0,866025404=0,866025404/n</li>\r\n<li>H.5/8=P.0,541265877=0,541265877/n</li>\r\n<li>H.3/8=P.0,324759526=0,324759526/n</li>\r\n<li>H.1/4=P.0,216506351=0,216506351/n</li>\r\n<li>H.1/8=P.0,108253175=0,108253175/n</li>\r\n</ul>",
+      "new": "<p>Vztahy v milimetrech: P = 25,4/n; H a všechny následující výšky jsou v mm.</p>\n<ul>\n<li>H = (√3/2) × P = 0,866025404 × P = 21,99704526/n</li>\n<li>5H/8 = 0,541265877 × P = 13,74815328/n</li>\n<li>3H/8 = 0,324759526 × P = 8,24889197/n</li>\n<li>H/4 = 0,216506351 × P = 5,499261315/n</li>\n<li>H/8 = 0,108253175 × P = 2,749630658/n</li>\n</ul>\n<p>Pro výsledek v palcích se použije P = 1/n in a stejné bezrozměrné násobky P.</p>",
+      "source": "ISO724",
+      "reason": "Correct P versus n and specify units for every formula."
+    },
+    {
+      "path": "03-ZAVITY/05-Trubkove zavity ISO/02-Rozmery trubkovĂ˝ch zavitu podle ISO 228 pro spoje netesnici mezi boky/0000-index/index_cs.html",
+      "line": 25,
+      "old": "<th rowspan=\"8\">Závit</th>",
+      "new": "<th rowspan=\"4\">Závit</th>",
+      "source": "LOCAL",
+      "reason": "Four header rows; remove overlap with four data rows."
+    }
+  ],
+  "decisions": [
+    {
+      "topic": "Initial DIN comparison",
+      "decision": "Run-outs x updated to ISO 3508:1976. External undercuts use ISO 4755:1983, not DIN 76-1 type A. Internal v/u and A/B remain the historical handbook design with an explicit source. Initial 79 DIN differences do not represent 79 independent typos. DIN internal g1/g2 limits have the opposite min/max contract to the historical A/B headers.",
+      "sources": [
+        "ISO3508",
+        "ISO4755",
+        "DIN76",
+        "DRASTIK131",
+        "DRASTIK132"
+      ]
+    },
+    {
+      "topic": "Special engagement PD example",
+      "decision": "The impossible PD numbers are already present on handbook page 105. Replaced with explained symbolic PD max/min notation; no fabricated manufacturing limits.",
+      "sources": [
+        "DRASTIK105",
+        "ISO725"
+      ]
+    },
+    {
+      "topic": "M4.5 x 0.35",
+      "decision": "Keep the nominal size and pitch. The four copied M5 diameters are recalculated from ISO 724; this is a reconstruction from row order and duplicated values, not a lookup of a special optics tolerance.",
+      "sources": [
+        "LOCAL",
+        "ISO724"
+      ]
+    },
+    {
+      "topic": "Inactive original files",
+      "decision": "PDF references and editor backups (*.html~, metadata.ini~) remain unchanged historical material. Active HTML and all 15 CSV files are corrected."
+    }
+  ],
+  "sources": {
+    "ISO724": {
+      "title": "ISO 724:2023, čl. 5",
+      "url": "https://cdn.standards.iteh.ai/samples/85104/9815392ad8904c9aa23cf7727e7b1dde/ISO-724-2023.pdf"
+    },
+    "ISO725": {
+      "title": "ISO 725:2009, čl. 3",
+      "url": "https://cdn.standards.iteh.ai/samples/51386/8bc5f5f2a14341e989c242c0c817f335/ISO-725-2009.pdf"
+    },
+    "ISO228": {
+      "title": "ISO 228-1:2000, tab. 1",
+      "url": "https://cdn.standards.iteh.ai/samples/33777/842b7c5409454ceba69c7dad9c308be1/ISO-228-1-2000.pdf"
+    },
+    "ISO2901": {
+      "title": "ISO 2901:2016, čl. 6 a tab. 2",
+      "url": "https://cdn.standards.iteh.ai/samples/68337/c87112d8e3dc487c95fd964d13101ca4/ISO-2901-2016.pdf"
+    },
+    "NIST": {
+      "title": "NIST, převod palce",
+      "url": "https://www.nist.gov/pml/owm/si-units-length"
+    },
+    "GUEHRING": {
+      "title": "Gühring, Technical section, PDF s. 38",
+      "url": "https://guehring.com/wp-content/downloads/EN/Catalogues-Special-Programmes/GUE_technical-section_EN.pdf"
+    },
+    "VOLKEL": {
+      "title": "VÖLKEL, řady BSW",
+      "url": "https://voelkel.com/media/4e/69/b8/1709295983/VD%2023%20DE-EN.pdf"
+    },
+    "CYCLE": {
+      "title": "VÖLKEL, FG/BSC",
+      "url": "https://voelkel.com/media/05/ac/15/1658319338/14_Information%20Technique_Diam%C3%A8tre%20axes.pdf"
+    },
+    "ISO6696": {
+      "title": "ISO 6696:1989",
+      "url": "https://www.iso.org/standard/13131.html"
+    },
+    "DIN76": {
+      "title": "DIN 76-1:2016-08, tab. 1–2; DIN Handbook 193, PDF s. 24 a 27",
+      "url": "https://api.pageplace.de/preview/DT0400.9783410274964_A35868027/preview-9783410274964_A35868027.pdf"
+    },
+    "BOSSARD": {
+      "title": "Bossard, Metric ISO threads, 01/2025, s. 97",
+      "url": "https://assets.eu.ctfassets.net/0vp0u5uh75zd/2tYqENAuufvdsudjM8Qbrc/b3461eaa59c2203d3a8b9509ac24dacf/096_098_Metric_ISOthreads_Fastening_EN_01_2025.pdf"
+    },
+    "FINELOK": {
+      "title": "FINELOK, Tube Fittings, PDF s. 4",
+      "url": "https://www.rometec.it/gpEasy/data/_uploaded/file/Sito%20Rometec/finelok/Raccordi.pdf"
+    },
+    "ISO3508": {
+      "title": "ISO 3508:1976, tabulka výběhů x",
+      "url": "https://www.iso.org/standard/8866.html"
+    },
+    "ISO4755": {
+      "title": "ISO 4755:1983, tabulka rozměrů",
+      "url": "https://cdn.standards.iteh.ai/samples/10740/f952f83a66554afabb4a47e90b3e8d88/ISO-4755-1983.pdf"
+    },
+    "DRASTIK103": {
+      "title": "F. Draštík a kol., Strojnické tabulky pro konstrukci i dílnu, 2. vyd., 1999, s. 103",
+      "url": "https://github.com/ZIMA-Engineering/ZIMA-Tables.org/blob/master/data/mechanical-tables/0000-index/DOC/Strojnick%C3%A9-tabulky.pdf#page=103"
+    },
+    "DRASTIK105": {
+      "title": "F. Draštík a kol., Strojnické tabulky pro konstrukci i dílnu, 2. vyd., 1999, s. 105",
+      "url": "https://github.com/ZIMA-Engineering/ZIMA-Tables.org/blob/master/data/mechanical-tables/0000-index/DOC/Strojnick%C3%A9-tabulky.pdf#page=105"
+    },
+    "DRASTIK119": {
+      "title": "F. Draštík a kol., Strojnické tabulky pro konstrukci i dílnu, 2. vyd., 1999, s. 119",
+      "url": "https://github.com/ZIMA-Engineering/ZIMA-Tables.org/blob/master/data/mechanical-tables/0000-index/DOC/Strojnick%C3%A9-tabulky.pdf#page=119"
+    },
+    "DRASTIK131": {
+      "title": "F. Draštík a kol., Strojnické tabulky pro konstrukci i dílnu, 2. vyd., 1999, s. 131",
+      "url": "https://github.com/ZIMA-Engineering/ZIMA-Tables.org/blob/master/data/mechanical-tables/0000-index/DOC/Strojnick%C3%A9-tabulky.pdf#page=131"
+    },
+    "DRASTIK132": {
+      "title": "F. Draštík a kol., Strojnické tabulky pro konstrukci i dílnu, 2. vyd., 1999, s. 132",
+      "url": "https://github.com/ZIMA-Engineering/ZIMA-Tables.org/blob/master/data/mechanical-tables/0000-index/DOC/Strojnick%C3%A9-tabulky.pdf#page=132"
+    },
+    "LOCAL": {
+      "title": "Vnitřní konzistence uživatelských dat / struktura HTML",
+      "url": null
+    }
+  },
+  "baseline_resolution": [
+    {
+      "id": "THR-0001",
+      "path": "03-ZAVITY/01-Zavity ISO/0000-index/index_cs.html",
+      "field": "Jednotky vzorců s n",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0002",
+      "path": "03-ZAVITY/01-Zavity ISO/0000-index/index_cs.html",
+      "field": "Vzorec výšky H",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0003",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/index_cs.html",
+      "field": "d3 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0004",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/index_cs.html",
+      "field": "P hrubé řady",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0005",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/index_cs.html",
+      "field": "Rozteč v označení",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0006",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/index_cs.html",
+      "field": "D2 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0007",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/index_cs.html",
+      "field": "D2 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0008",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/index_cs.html",
+      "field": "d3 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0009",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/table1.csv",
+      "field": "Soubor s příponou CSV obsahuje HTML",
+      "status": "format",
+      "resolution": "Export regenerated completely from corrected HTML and checked cell by cell."
+    },
+    {
+      "id": "THR-0010",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/table2.csv",
+      "field": "Soubor s příponou CSV obsahuje HTML",
+      "status": "format",
+      "resolution": "Export regenerated completely from corrected HTML and checked cell by cell."
+    },
+    {
+      "id": "THR-0011",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/table3.csv",
+      "field": "Soubor s příponou CSV obsahuje HTML",
+      "status": "format",
+      "resolution": "Export regenerated completely from corrected HTML and checked cell by cell."
+    },
+    {
+      "id": "THR-0012",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/table4.csv",
+      "field": "Nepravidelný formát exportu",
+      "status": "format",
+      "resolution": "Export regenerated completely from corrected HTML and checked cell by cell."
+    },
+    {
+      "id": "THR-0013",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/table5.csv",
+      "field": "Soubor s příponou CSV obsahuje HTML",
+      "status": "format",
+      "resolution": "Export regenerated completely from corrected HTML and checked cell by cell."
+    },
+    {
+      "id": "THR-0014",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/02-rozmery pro M20 az M48/0000-index/index_cs.html",
+      "field": "d3 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0015",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/02-rozmery pro M20 az M48/0000-index/index_cs.html",
+      "field": "d3 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0016",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/02-rozmery pro M20 az M48/0000-index/index_cs.html",
+      "field": "d3 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0017",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/02-rozmery pro M20 az M48/0000-index/index_cs.html",
+      "field": "d3 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0018",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/03-rozmery pro M50 az M82/0000-index/index_cs.html",
+      "field": "d3 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0019",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/03-rozmery pro M50 az M82/0000-index/index_cs.html",
+      "field": "d3 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0020",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/03-rozmery pro M50 az M82/0000-index/index_cs.html",
+      "field": "d3 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0021",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/04-rozmery pro M85 az M175/0000-index/index_cs.html",
+      "field": "d3 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0022",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/04-rozmery pro M85 az M175/0000-index/index_cs.html",
+      "field": "d3 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0023",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/04-rozmery pro M85 az M175/0000-index/index_cs.html",
+      "field": "D2 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0024",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/04-rozmery pro M85 az M175/0000-index/index_cs.html",
+      "field": "d3 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0025",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/04-rozmery pro M85 az M175/0000-index/index_cs.html",
+      "field": "D1 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0026",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/04-rozmery pro M85 az M175/0000-index/index_cs.html",
+      "field": "D1 [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0027",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/04-rozmery pro M85 az M175/0000-index/index_cs.html",
+      "field": "D1 [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0028",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/04-rozmery pro M85 az M175/0000-index/index_cs.html",
+      "field": "D1 [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0029",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/05-rozmery pro M180 az M300/0000-index/index_cs.html",
+      "field": "D1 [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0030",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/05-rozmery pro M180 az M300/0000-index/index_cs.html",
+      "field": "d3 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0031",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/05-rozmery pro M180 az M300/0000-index/index_cs.html",
+      "field": "d3 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0032",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/05-rozmery pro M180 az M300/0000-index/index_cs.html",
+      "field": "D1 [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0033",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/05-rozmery pro M180 az M300/0000-index/index_cs.html",
+      "field": "D1 [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0034",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/05-rozmery pro M180 az M300/0000-index/index_cs.html",
+      "field": "D1 [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0035",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/05-rozmery pro M180 az M300/0000-index/index_cs.html",
+      "field": "d3 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0036",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/05-rozmery pro M180 az M300/0000-index/index_cs.html",
+      "field": "D1 [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0037",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/05-rozmery pro M180 az M300/0000-index/index_cs.html",
+      "field": "d3 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0038",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "field": "Rozpor jmenovitého a velkého průměru",
+      "status": "review",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0039",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "field": "P [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0040",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "field": "d3 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0041",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "field": "D2 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0042",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "field": "d = jmenovitý průměr [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0043",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "field": "D2 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0044",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "field": "D1 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0045",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "field": "D1 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0046",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "field": "D2 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0047",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "field": "D1 [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0048",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "field": "D1 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0049",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "field": "D1 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0050",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "field": "d3 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0051",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "field": "D1 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0052",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "field": "d = jmenovitý průměr [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0053",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "field": "D2 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0054",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "field": "D1 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0055",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "field": "d3 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0056",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "field": "d3 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0057",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "field": "D1 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0058",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "field": "D1 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0059",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/index_cs.html",
+      "field": "d3 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0060",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/03-Metricke zavity ISO - tolerovani/0000-index/index_cs.html",
+      "field": "Toleranční značka",
+      "status": "review",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0061",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/03-Metricke zavity ISO - tolerovani/0000-index/index_cs.html",
+      "field": "Toleranční značka",
+      "status": "review",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0062",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/03-Metricke zavity ISO - tolerovani/05-Tolerancni znacky pro ulozeni prechodna/0000-index/index_cs.html",
+      "field": "Toleranční značka",
+      "status": "review",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0063",
+      "path": "03-ZAVITY/02-Metricke zavity ISO/03-Metricke zavity ISO - tolerovani/06-Kombinace tolerancnich poli pro ulozeni prechodna/0000-index/index_cs.html",
+      "field": "Toleranční značka",
+      "status": "review",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0064",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/0000-index/index_cs.html",
+      "field": "Neslučitelný příklad PD",
+      "status": "review",
+      "resolution": "Impossible numeric example replaced with explained symbolic PD limits."
+    },
+    {
+      "id": "THR-0065",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/0000-index/index_cs.html",
+      "field": "Popis průměru",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0066",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "field": "Nejednoznačný zápis smíšených čísel",
+      "status": "review",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0067",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/01-Palcove zavity ISO - prehled/0000-index/index_cs.html",
+      "field": "d [in], podle smíšeného čísla",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0068",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "Jednotka D2/D1",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0069",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "Jednotka D2/D1",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0070",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "P [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0071",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "d [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0072",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "D1 [in]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0073",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "D2 [in]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0074",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "P [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0075",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "D1 [in]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0076",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "D1 [in]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0077",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "D1 [in]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0078",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "D1 [in]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0079",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "d [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0080",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "d [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0081",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "d [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0082",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "d [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0083",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "d [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0084",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "d [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0085",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "d [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0086",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "d [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0087",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "d [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0088",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "d [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0089",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "d [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0090",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "d [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0091",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "d [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0092",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "d [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0093",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "d [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0094",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "d [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0095",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "d [in]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0096",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "d [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0097",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "D1 [in]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0098",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "D1 [in]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0099",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "D2 [in]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0100",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "D2 [in]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0101",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "D2 [in]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0102",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "D1 [in]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0103",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "D1 [in]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0104",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "D1 [in]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0105",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "D2 [in]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0106",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/index_cs.html",
+      "field": "D1 [in]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0107",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/tabulka.csv",
+      "field": "Nečitelný řádek exportu",
+      "status": "format",
+      "resolution": "Export regenerated completely from corrected HTML and checked cell by cell."
+    },
+    {
+      "id": "THR-0108",
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/tabulka.csv",
+      "field": "Nečitelný řádek exportu",
+      "status": "format",
+      "resolution": "Export regenerated completely from corrected HTML and checked cell by cell."
+    },
+    {
+      "id": "THR-0109",
+      "path": "03-ZAVITY/04-Whitworthovy zavity/0000-index/index_cs.html",
+      "field": "Počet závitů na palec",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0110",
+      "path": "03-ZAVITY/04-Whitworthovy zavity/0000-index/index_cs.html",
+      "field": "Počet závitů na palec",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0111",
+      "path": "03-ZAVITY/04-Whitworthovy zavity/0000-index/index_cs.html",
+      "field": "Počet závitů na palec",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0112",
+      "path": "03-ZAVITY/04-Whitworthovy zavity/0000-index/index_cs.html",
+      "field": "Dolní mezní úchylka d",
+      "status": "review",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0113",
+      "path": "03-ZAVITY/04-Whitworthovy zavity/0000-index/index_cs.html",
+      "field": "P [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0114",
+      "path": "03-ZAVITY/05-Trubkove zavity ISO/01-Rozmery trubkovych zavitu podle ISO 7 pro spoje tesnici mezi boky/0000-index/tabulka.csv",
+      "field": "Neúplné řádky CSV po sloučených buňkách",
+      "status": "format",
+      "resolution": "Export regenerated completely from corrected HTML and checked cell by cell."
+    },
+    {
+      "id": "THR-0115",
+      "path": "03-ZAVITY/05-Trubkove zavity ISO/02-Rozmery trubkovĂ˝ch zavitu podle ISO 228 pro spoje netesnici mezi boky/0000-index/index_cs.html",
+      "field": "rowspan záhlaví",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0116",
+      "path": "03-ZAVITY/05-Trubkove zavity ISO/02-Rozmery trubkovĂ˝ch zavitu podle ISO 228 pro spoje netesnici mezi boky/0000-index/index_cs.html",
+      "field": "D1 [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0117",
+      "path": "03-ZAVITY/06-Lichobeznikove zavity/01-Lichobeznikove zavity - zakladni rozmery/0000-index/index_cs.html",
+      "field": "Počet chodů n",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0118",
+      "path": "03-ZAVITY/06-Lichobeznikove zavity/01-Lichobeznikove zavity - zakladni rozmery/0000-index/index_cs.html",
+      "field": "Počet chodů n",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0119",
+      "path": "03-ZAVITY/06-Lichobeznikove zavity/01-Lichobeznikove zavity - zakladni rozmery/0000-index/index_cs.html",
+      "field": "Označení",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0120",
+      "path": "03-ZAVITY/06-Lichobeznikove zavity/01-Lichobeznikove zavity - zakladni rozmery/0000-index/index_cs.html",
+      "field": "Ph pro 3 chodů [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0121",
+      "path": "03-ZAVITY/06-Lichobeznikove zavity/01-Lichobeznikove zavity - zakladni rozmery/0000-index/index_cs.html",
+      "field": "Ph pro 3 chodů [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0122",
+      "path": "03-ZAVITY/06-Lichobeznikove zavity/01-Lichobeznikove zavity - zakladni rozmery/0000-index/index_cs.html",
+      "field": "Ph pro 1 chodů [mm]",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0123",
+      "path": "03-ZAVITY/06-Lichobeznikove zavity/01-Lichobeznikove zavity - zakladni rozmery/0000-index/tabulka.csv",
+      "field": "CSV / HTML rozdíl",
+      "status": "confirmed",
+      "resolution": "Export regenerated completely from corrected HTML and checked cell by cell."
+    },
+    {
+      "id": "THR-0124",
+      "path": "03-ZAVITY/07-Zvlastni zavity uzivane na jizdnich kolech/0000-index/index_cs.html",
+      "field": "Označení",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0125",
+      "path": "03-ZAVITY/07-Zvlastni zavity uzivane na jizdnich kolech/0000-index/index_cs.html",
+      "field": "Počet závitů na palec",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0126",
+      "path": "03-ZAVITY/07-Zvlastni zavity uzivane na jizdnich kolech/0000-index/index_cs.html",
+      "field": "P [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0127",
+      "path": "03-ZAVITY/07-Zvlastni zavity uzivane na jizdnich kolech/0000-index/index_cs.html",
+      "field": "P [mm]",
+      "status": "precision",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0128",
+      "path": "03-ZAVITY/07-Zvlastni zavity uzivane na jizdnich kolech/0000-index/index_cs.html",
+      "field": "Jednotka úhlu",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0129",
+      "path": "03-ZAVITY/07-Zvlastni zavity uzivane na jizdnich kolech/0000-index/index_cs.html",
+      "field": "Číslo normy",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0130",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0131",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0132",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0133",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0134",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0135",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0136",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0137",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0138",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0139",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0140",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "Délka výběhu musí být kladná",
+      "status": "confirmed",
+      "resolution": "Corrected in the active HTML; value/source and reasoning are in changes."
+    },
+    {
+      "id": "THR-0141",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0142",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0143",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0144",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0145",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0146",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0147",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0148",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0149",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0150",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0151",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0152",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0153",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0154",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0155",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0156",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0157",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0158",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0159",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0160",
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/index_cs.html",
+      "field": "x2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0161",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "a / g1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0162",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "b / g2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0163",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "a / g1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0164",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "b / g2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0165",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "a / g1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0166",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "b / g2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0167",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "a / g1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0168",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "b / g2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0169",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "a / g1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0170",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "b / g2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0171",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "a / g1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0172",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "b / g2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0173",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "a / g1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0174",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "b / g2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0175",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "a / g1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0176",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "b / g2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0177",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "a / g1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0178",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "b / g2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0179",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "a / g1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0180",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "b / g2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0181",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "a / g1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0182",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "b / g2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0183",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "a / g1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0184",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "b / g2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0185",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "a / g1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0186",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "b / g2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0187",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "dd / dg DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0188",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "a / g1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0189",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "b / g2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0190",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "a / g1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0191",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "b / g2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0192",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "a / g1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0193",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "b / g2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0194",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "a / g1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0195",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "b / g2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0196",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "a / g1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0197",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "b / g2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0198",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "a / g1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0199",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "b / g2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0200",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "a / g1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0201",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "b / g2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0202",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "a / g1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0203",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "b / g2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0204",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "a / g1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0205",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "b / g2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0206",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "a / g1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0207",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "b / g2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0208",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "a / g1 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    },
+    {
+      "id": "THR-0209",
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/index_cs.html",
+      "field": "b / g2 DIN",
+      "status": "standard_difference",
+      "resolution": "Resolved by an explicit reference/design choice: ISO 3508 external x; ISO 4755 external undercut; historical internal design retained. See decisions."
+    }
+  ],
+  "exports": [
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/table1.csv",
+      "before_rows": 79,
+      "after_rows": 79,
+      "columns": [
+        "designation",
+        "P_mm",
+        "D1_mm",
+        "D2_mm",
+        "d3_mm"
+      ],
+      "source": "LOCAL",
+      "reason": "Regenerated with Artifact Tool from corrected HTML matrices; full coverage and every cell verified."
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/table2.csv",
+      "before_rows": 76,
+      "after_rows": 76,
+      "columns": [
+        "designation",
+        "P_mm",
+        "D1_mm",
+        "D2_mm",
+        "d3_mm"
+      ],
+      "source": "LOCAL",
+      "reason": "Regenerated with Artifact Tool from corrected HTML matrices; full coverage and every cell verified."
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/table3.csv",
+      "before_rows": 78,
+      "after_rows": 78,
+      "columns": [
+        "designation",
+        "P_mm",
+        "D1_mm",
+        "D2_mm",
+        "d3_mm"
+      ],
+      "source": "LOCAL",
+      "reason": "Regenerated with Artifact Tool from corrected HTML matrices; full coverage and every cell verified."
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/table4.csv",
+      "before_rows": 81,
+      "after_rows": 81,
+      "columns": [
+        "designation",
+        "P_mm",
+        "D1_mm",
+        "D2_mm",
+        "d3_mm"
+      ],
+      "source": "LOCAL",
+      "reason": "Regenerated with Artifact Tool from corrected HTML matrices; full coverage and every cell verified."
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/table5.csv",
+      "before_rows": 78,
+      "after_rows": 78,
+      "columns": [
+        "designation",
+        "P_mm",
+        "D1_mm",
+        "D2_mm",
+        "d3_mm"
+      ],
+      "source": "LOCAL",
+      "reason": "Regenerated with Artifact Tool from corrected HTML matrices; full coverage and every cell verified."
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/01-Metricke zavity ISO - pro vseobecne pouziti/01-rozmery pro M1 az M18/0000-index/tabulka.csv",
+      "before_rows": 391,
+      "after_rows": 392,
+      "columns": [
+        "d_mm",
+        "P_mm",
+        "D2_mm",
+        "D1_mm",
+        "d3_mm",
+        "designation"
+      ],
+      "source": "LOCAL",
+      "reason": "Regenerated with Artifact Tool from corrected HTML matrices; full coverage and every cell verified."
+    },
+    {
+      "path": "03-ZAVITY/02-Metricke zavity ISO/02-Metricke zavity ISO - pro jemnou mechaniku a optiku/0000-index/tabulka.csv",
+      "before_rows": 71,
+      "after_rows": 314,
+      "columns": [
+        "nominal_mm",
+        "P_mm",
+        "d_mm",
+        "D2_mm",
+        "D1_mm",
+        "d3_mm"
+      ],
+      "source": "LOCAL",
+      "reason": "Regenerated with Artifact Tool from corrected HTML matrices; full coverage and every cell verified."
+    },
+    {
+      "path": "03-ZAVITY/03-Palcove zavity ISO/02-Palcove zavity ISO - zakladni rozmery/0000-index/tabulka.csv",
+      "before_rows": 346,
+      "after_rows": 346,
+      "columns": [
+        "nominal_in",
+        "series",
+        "threads_per_in",
+        "P_mm",
+        "d_in",
+        "d_mm",
+        "D2_in",
+        "D1_in",
+        "designation"
+      ],
+      "source": "LOCAL",
+      "reason": "Regenerated with Artifact Tool from corrected HTML matrices; full coverage and every cell verified."
+    },
+    {
+      "path": "03-ZAVITY/04-Whitworthovy zavity/0000-index/tabulka.csv",
+      "before_rows": 28,
+      "after_rows": 30,
+      "columns": [
+        "designation",
+        "threads_per_in",
+        "P_mm",
+        "d_mm",
+        "d_deviations_um",
+        "d2_mm",
+        "d2_deviations_um",
+        "d1_mm",
+        "D_mm",
+        "D2_mm",
+        "D2_deviations_um",
+        "D1_mm",
+        "D1_deviations_um"
+      ],
+      "source": "LOCAL",
+      "reason": "Regenerated with Artifact Tool from corrected HTML matrices; full coverage and every cell verified."
+    },
+    {
+      "path": "03-ZAVITY/05-Trubkove zavity ISO/01-Rozmery trubkovych zavitu podle ISO 7 pro spoje tesnici mezi boky/0000-index/tabulka.csv",
+      "before_rows": 15,
+      "after_rows": 15,
+      "columns": [
+        "designation",
+        "threads_per_in",
+        "P_mm",
+        "d_mm",
+        "d2_mm",
+        "d1_mm",
+        "gauge_length_max_min_mm",
+        "gauge_length_tolerance_turns",
+        "internal_gauge_plane_tolerance_turns",
+        "external_usable_length_max_min_mm",
+        "assembly_allowance_turns"
+      ],
+      "source": "LOCAL",
+      "reason": "Regenerated with Artifact Tool from corrected HTML matrices; full coverage and every cell verified."
+    },
+    {
+      "path": "03-ZAVITY/05-Trubkove zavity ISO/02-Rozmery trubkovĂ˝ch zavitu podle ISO 228 pro spoje netesnici mezi boky/0000-index/tabulka.csv",
+      "before_rows": 24,
+      "after_rows": 24,
+      "columns": [
+        "designation",
+        "d_mm",
+        "D2_mm",
+        "D1_mm"
+      ],
+      "source": "LOCAL",
+      "reason": "Regenerated with Artifact Tool from corrected HTML matrices; full coverage and every cell verified."
+    },
+    {
+      "path": "03-ZAVITY/06-Lichobeznikove zavity/01-Lichobeznikove zavity - zakladni rozmery/0000-index/tabulka.csv",
+      "before_rows": 143,
+      "after_rows": 143,
+      "columns": [
+        "nominal_mm",
+        "P_mm",
+        "d_mm",
+        "D4_mm",
+        "D2_mm",
+        "d3_mm",
+        "D1_mm",
+        "designation",
+        "Ph_1_starts_mm",
+        "Ph_2_starts_mm",
+        "Ph_3_starts_mm",
+        "Ph_4_starts_mm",
+        "Ph_6_starts_mm",
+        "Ph_8_starts_mm"
+      ],
+      "source": "LOCAL",
+      "reason": "Regenerated with Artifact Tool from corrected HTML matrices; full coverage and every cell verified."
+    },
+    {
+      "path": "03-ZAVITY/07-Zvlastni zavity uzivane na jizdnich kolech/0000-index/tabulka.csv",
+      "before_rows": 12,
+      "after_rows": 12,
+      "columns": [
+        "designation",
+        "threads_per_in",
+        "P_mm",
+        "d_mm",
+        "d2_mm",
+        "d1_mm"
+      ],
+      "source": "LOCAL",
+      "reason": "Regenerated with Artifact Tool from corrected HTML matrices; full coverage and every cell verified."
+    },
+    {
+      "path": "03-ZAVITY/08-Vybehy a zkoseni zavitu/0000-index/tabulka.csv",
+      "before_rows": 24,
+      "after_rows": 24,
+      "columns": [
+        "P_mm",
+        "coarse_threads",
+        "x_normal_max_mm",
+        "x_short_max_mm",
+        "v_normal_max_mm",
+        "u_normal_min_mm",
+        "v_short_max_mm",
+        "u_short_min_mm",
+        "v_long_max_mm",
+        "u_long_min_mm",
+        "z_min_mm"
+      ],
+      "source": "LOCAL",
+      "reason": "Regenerated with Artifact Tool from corrected HTML matrices; full coverage and every cell verified."
+    },
+    {
+      "path": "03-ZAVITY/09-Drazky za zavity/0000-index/tabulka.csv",
+      "before_rows": 24,
+      "after_rows": 24,
+      "columns": [
+        "P_mm",
+        "coarse_threads",
+        "dd_mm",
+        "a_min_mm",
+        "b_max_mm",
+        "Dd_mm",
+        "A_normal_max_mm",
+        "B_normal_min_mm",
+        "A_short_max_mm",
+        "B_short_min_mm",
+        "R_external_mm",
+        "R_internal_mm"
+      ],
+      "source": "LOCAL",
+      "reason": "Regenerated with Artifact Tool from corrected HTML matrices; full coverage and every cell verified."
+    }
+  ]
+}

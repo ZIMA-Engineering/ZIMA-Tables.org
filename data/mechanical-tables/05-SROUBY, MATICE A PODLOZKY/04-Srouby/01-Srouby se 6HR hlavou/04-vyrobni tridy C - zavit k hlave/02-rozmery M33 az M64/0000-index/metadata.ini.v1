@@ -1,0 +1,18 @@
+[params]
+cs/label = "rozměry pro M30 až M64"
+cs/1 = Nazev
+cs/2 = Norma
+cs/3 = b [mm]
+cs/4 = e [mm]
+cs/5 = s [mm]
+cs/6 = k [mm]
+cs/7 = R [mm]
+
+en/label = "dimensions for M30 to M64"
+cs/1 = Name
+cs/2 = Standard
+cs/3 = b [mm]
+cs/4 = e [mm]
+cs/5 = s [mm]
+cs/6 = k [mm]
+cs/7 = R [mm]

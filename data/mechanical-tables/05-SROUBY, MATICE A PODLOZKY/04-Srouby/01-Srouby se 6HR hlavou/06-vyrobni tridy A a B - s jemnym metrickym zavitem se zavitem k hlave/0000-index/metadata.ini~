@@ -1,0 +1,18 @@
+[params]
+cs/label = výrobní třída A a B - s jemným metrickým závitem
+cs/1 = Nazev
+cs/2 = Norma
+cs/3 = b [mm]
+cs/4 = e [mm]
+cs/5 = s [mm]
+cs/6 = k [mm]
+cs/7 = R [mm]
+
+en/label = production class A and B - with metric fine pitch thread
+cs/1 = Name
+cs/2 = Standard
+cs/3 = b [mm]
+cs/4 = e [mm]
+cs/5 = s [mm]
+cs/6 = k [mm]
+cs/7 = R [mm]

@@ -1,0 +1,279 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>  
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" >
+<meta name="description" lang="cs" content="Strojnické tabulky od firmy Zima Engineering" />
+<meta name="copyright" content="2011 Vladimír Zima, http://www.zima-engineering.cz/" />
+<meta name="author" content="Vladimir Zima" />
+<meta name="designer" content="Vladimír Zima, http://www.zima-engineering.cz/" />
+<meta name="robots" content="ALL,FOLLOW" />
+<link href="../../../../0000-index/css/tables-style-general.css" rel="stylesheet" type="text/css">
+<title>Podložky</title>
+</head>
+
+<body>
+
+<h1>Ozubené podložky</h1>
+
+<h2>
+podle ČSN 02 1744
+</h2>
+
+<h1>Vějířovité podložky</h1>
+
+<h2>
+s vnějším ozubením podle ČSN 02 1745
+</h2>
+
+<h1>Vějířovité podložky</h1>
+
+<h2>
+s vnitřním ozubením podle ČSN 02 1746
+</h2>
+
+<img src="01.png"><br>
+
+<p>Příklad označení pozinkované ocelové ozubené podložky pod matici M16:</p>
+
+<p><b>PODLOŽKA ČSN 02 1744.05&ndash;17</b></p>
+
+<p>Příklad označení pozinkované ocelové vějířovité podložky s vnějším ozubením pod matici M16:</p>
+
+<p><b>PODLOŽKA ČSN 02 1745.05&ndash;17</b></p>
+
+<p>Příklad označení pozinkované ocelové vějířovité podložky s vnitřním ozubením pod matici M16:</p>
+
+<p><b>PODLOŽKA ČSN 02 1746.05&ndash;17</b></p>
+
+<h3>Rozměry ozubených a vějířovitých podložek</h3>
+
+Rozměry v milimetrech
+
+<table style="width: 1000px;">
+
+<tr class="nadpis">
+<td rowspan="2">Matice<br><i>d</i></td>
+<td colspan="3">Společné rozměry</td>
+<td colspan="2">ČSN 02 1744</td>
+<td>ČSN 02 1745</td>
+<td>ČSN 02 1746</td>
+</tr>
+
+<tr class="nadpis">
+<td><i>d</i><sub>1</sub></td>
+<td><i>d</i><sub>2</sub></td>
+<td><i>t</i></td>
+<td><i>v</i></td>
+<td>Hmotnost [g]</td>
+<td>Hmotnost [g]</td>
+<td>Hmotnost [g]</td>
+</tr>
+
+<tr class="suda">
+<td class="zacatek">M1,6</td>
+<td>1,8</td>
+<td>3,8</td>
+<td>0,25 &pm;0,025</td>
+<td>0,6</td>
+<td>0,012</td>
+<td>&ndash;</td>
+<td>&ndash;</td>
+</tr>
+
+<tr>
+<td class="zacatek">M2</td>
+<td>2,2</td>
+<td>4,5</td>
+<td>0,3 &pm;0,035</td>
+<td>0,6</td>
+<td>0,020</td>
+<td>&ndash;</td>
+<td>&ndash;</td>
+</tr>
+
+<tr class="suda">
+<td class="zacatek">M2,5</td>
+<td>2,8</td>
+<td>5,5</td>
+<td>0,3 &pm;0,035</td>
+<td>0,6</td>
+<td>0,028</td>
+<td>&ndash;</td>
+<td>&ndash;</td>
+</tr>
+
+<tr>
+<td class="zacatek">M3</td>
+<td>3,2</td>
+<td>6</td>
+<td>0,3 &pm;0,035</td>
+<td>0,7</td>
+<td>0,033</td>
+<td>0,029</td>
+<td>0,029</td>
+</tr>
+
+<tr class="suda">
+<td class="zacatek">M3,5</td>
+<td>3,7</td>
+<td>7</td>
+<td>0,35 &pm;0,035</td>
+<td>0,8</td>
+<td>0,053</td>
+<td>0,076</td>
+<td>0,076</td>
+</tr>
+
+<tr>
+<td class="zacatek">M4</td>
+<td>4,3</td>
+<td>8</td>
+<td>0,35 &pm;0,035</td>
+<td>1</td>
+<td>0,098</td>
+<td>0,098</td>
+<td>0,098</td>
+</tr>
+
+<tr class="suda">
+<td class="zacatek">M5</td>
+<td>5,3</td>
+<td>9</td>
+<td>0,6 &pm;0,045</td>
+<td>1,3</td>
+<td>0,160</td>
+<td>0,196</td>
+<td>0,196</td>
+</tr>
+
+<tr>
+<td class="zacatek">M6</td>
+<td>6,4</td>
+<td>11</td>
+<td>0,7 &pm;0,045</td>
+<td>1,5</td>
+<td>0,221</td>
+<td>0,345</td>
+<td>0,345</td>
+</tr>
+
+<tr class="suda">
+<td class="zacatek">M8</td>
+<td>8,4</td>
+<td>14</td>
+<td>0,8 &pm;0,045</td>
+<td>1,9</td>
+<td>0,435</td>
+<td>0,618</td>
+<td>0,618</td>
+</tr>
+
+<tr>
+<td class="zacatek">M10</td>
+<td>10,5</td>
+<td>17</td>
+<td>1 &pm;0,055</td>
+<td>2</td>
+<td>0,781</td>
+<td>1,1</td>
+<td>1,1</td>
+</tr>
+
+<tr class="suda">
+<td class="zacatek">M12</td>
+<td>12,5</td>
+<td>22</td>
+<td>1,2 &pm;0,055</td>
+<td>2,6</td>
+<td>1,06</td>
+<td>2,33</td>
+<td>2,33</td>
+</tr>
+
+<tr>
+<td class="zacatek">M14</td>
+<td>15</td>
+<td>22</td>
+<td>1,5 &pm;0,065</td>
+<td>3,2</td>
+<td>1,60</td>
+<td>3,39</td>
+<td>3,39</td>
+</tr>
+
+<tr class="suda">
+<td class="zacatek">M16</td>
+<td>17</td>
+<td>27</td>
+<td>1,5 &pm;0,065</td>
+<td>3,8</td>
+<td>2,53</td>
+<td>4,07</td>
+<td>4,07</td>
+</tr>
+
+<tr>
+<td class="zacatek">M18</td>
+<td>19</td>
+<td>32</td>
+<td>1,8 &pm;0,085</td>
+<td>3,8</td>
+<td>3,16</td>
+<td>7,36</td>
+<td>7,36</td>
+</tr>
+
+<tr class="suda">
+<td class="zacatek">M20</td>
+<td>21</td>
+<td>32</td>
+<td>1,8 &pm;0,085</td>
+<td>4,0</td>
+<td>4,92</td>
+<td>6,47</td>
+<td>6,47</td>
+</tr>
+
+<tr>
+<td class="zacatek">M22</td>
+<td>23</td>
+<td>36</td>
+<td>2 &pm;0,085</td>
+<td>&ndash;</td>
+<td>&ndash;</td>
+<td>9,46</td>
+<td>9,46</td>
+</tr>
+
+<tr class="suda">
+<td class="zacatek">M24</td>
+<td>25</td>
+<td>36</td>
+<td>2 &pm;0,085</td>
+<td>&ndash;</td>
+<td>&ndash;</td>
+<td>8,27</td>
+<td>8,27</td>
+</tr>
+
+</table>
+
+<p>Poznámka:<br>
+První doplňková číslice
+<p class="ind">0 ocel 11 701.20</p>
+Druhá doplňková číslice:
+<p class="ind">0 bez úpravy povrchu</p>
+<p class="ind">1 čistý povrch</p>
+<p class="ind">2 černění</p>
+<p class="ind">3 fosfátování</p>
+<p class="ind">4 kadmiování</p>
+<p class="ind">5 zinkování</p>
+<p class="ind">6 mosazení</p>
+<p class="ind">7 niklování</p>
+<p class="ind">8 chromování</p>
+<p class="ind">9 dle zvláštního ujednání</p>
+</p>
+
+</body>
+</html>

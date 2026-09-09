@@ -1,0 +1,11 @@
+[Directory]
+Label\cs=Privarovaci_matice
+Label\de=
+Label\en=
+Label\ru=
+Parameters=@Invalid()
+SubdirectoriesAsParts=false
+
+[params]
+cs\label=Přivařovací matice
+en\label=To be translated

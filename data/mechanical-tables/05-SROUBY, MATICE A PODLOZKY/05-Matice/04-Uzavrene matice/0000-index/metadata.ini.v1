@@ -1,0 +1,11 @@
+[Directory]
+Label\cs=Uzavrene matice
+Label\de=
+Label\en=
+Label\ru=
+Parameters=@Invalid()
+SubdirectoriesAsParts=false
+
+[params]
+cs\label=Uzavřené matice
+en\label=To be translated

@@ -1,0 +1,14 @@
+[Directory]
+Label\cs=Samojistne_matice
+Label\de=
+Label\en=
+Label\ru=
+Parameters=param01
+SubdirectoriesAsParts=false
+
+[Parameters]
+param01\Label\cs=Název
+
+[params]
+cs\label=Samojistné matice šestihranné
+en\label=To be translated

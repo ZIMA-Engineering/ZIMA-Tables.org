@@ -1,0 +1,174 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>  
+  <head>  
+    <meta http-equiv="content-type" content="text/html" charset="UTF-8" >  
+    <meta name="description" lang="cs" content="Software ZIMA-CAD-Parts" />		
+    <meta name="keywords" lang="cs" content="ZIMA-Engineering" />		
+    <meta name="resource-type" content="document" />		
+    <meta name="copyright" content="2011 Vladimír Zima, http://www.zima-engineering.cz/" />		
+    <meta name="author" content="Vladimir Zima" />		
+    <meta name="designer" content="Vladimír Zima, http://www.zima-engineering.cz/" />		
+    <meta name="robots" content="ALL,FOLLOW" />		
+    <meta http-equiv="reply-to" content="" />		
+    <meta http-equiv="content-language" content="" />		
+    <meta http-equiv="cache-control" content="public" />  
+    <title>VŠEOBECNÉ TOLERANCE
+    </title>  
+     <link href="style.css" rel="stylesheet" type="text/css">    
+  </head>  
+  <body>    <h1>VŠEOBECNÉ TOLERANCE</h1>    Norma EN 22768-1 a -2 (ISO 2768-1 a -2, ČSN ISO 2768-1 A -2) stanoví nepředepsané mezní úchylky délkových rozměrů obráběných součástí a součástí z plechu a nepředepsané gemetrické tolerance.     <h2>Nepředepsané mezní úchylky délkových a úhlových rozměrů</h2>    <h3>Polohy a relativní velikost tolerančních polí</h3>          
+    <img src="01_en.png">
+    <br>    <h3>Mezní úchylky délkových rozměrů (kromě zaoblení  a zkosení hran)</h3>    
+    <table>            
+      <tr class="zacatek"> 
+        <td colspan=2 rowspan=2>Třída přesnosti</td>  
+        <td colspan=8>Mezní úchylky pro rozsahy rozměrů [mm]</td>                                                                                                                                                                                                                                                                                               
+      </tr>      
+      <tr class="nadpis">                                                                                               <td>přez 0,05
+          <br>do&nbsp;&nbsp;&nbsp; 3</td> <td>3
+          <br>6</td>  <td>&nbsp;6
+          <br>30</td> <td>&nbsp;30
+          <br>120</td> <td>120
+          <br>400</td> <td>&nbsp;400
+          <br>1000</td> <td>1000
+          <br>2000</td> <td>2000
+          <br>4000</td> 
+      </tr>      
+      <tr><td>přesná</td>                                         <td>f</td>  <td>±0,05</td>                               <td>±0,05</td>   <td>±0,1</td>          <td>±0,15</td>           <td>±0,2</td>       <td>±0,3</td>              <td>±0,5</td>         <td>&nbsp;</td>             
+      </tr>                                
+      <tr><td>střední</td>                                        <td>m</td>  <td>±0,1</td>                                <td>±0,1</td>    <td>±0,2</td>          <td>±0,3</td>            <td>±0,5</td>       <td>±0,8</td>              <td>±1,2</td>         <td>±2</td>           
+      </tr>               
+      <tr><td>hrubá</td>                                          <td>c</td>  <td>±0,2</td>                                <td>±0,3</td>    <td>±0,5</td>          <td>±0,8</td>            <td>±1,2</td>       <td>±2</td>                <td>±3</td>           <td>±4</td>           
+      </tr>      
+      <tr><td>velmi hrubá</td>                                    <td>v</td>  <td>&nbsp;</td>                                    <td>±0,5</td>    <td>±1</td>            <td>±1,5</td>            <td>±2,5</td>       <td>±4</td>                <td>±6</td>           <td>±8</td>           
+      </tr>    
+    </table>
+    <br>
+    <br>    <h3>Mezní úchylky zkosených hran a vnějších zaoblení</h3>    
+    <table>             
+      <tr class="zacatek"> 
+        <td colspan=2 rowspan=2>Třída přesnosti</td>                                                
+        <td colspan=3>Mezní úchylky pro rozsahy rozměrů [mm]</td>                                                      
+      </tr>      
+      <tr class="nadpis">                                                                                                           <td>přez 0,5
+          <br>do&nbsp;&nbsp;&nbsp; 3</td> <td>3
+          <br>6</td>  <td>6
+          <br>&nbsp;</td> 
+      </tr>      
+      <tr><td>přesná a střední</td>                                         <td>f,m</td>  <td>±0,2</td>                               <td>±0,5</td>    <td>±1</td>          
+      </tr>                                
+      <tr><td>hrubá a velmi hrubá</td>                                      <td>c,v</td>  <td>±0,4</td>                               <td>±1</td>      <td>±2</td>          
+      </tr>             
+    </table>
+    <br>
+    <br>    <h3>Mezní úchylky úhlových rozměrů</h3>    
+    <table>             
+      <tr class="zacatek"> 
+        <td colspan=2 rowspan=2>Třída přesnosti</td>                                   
+        <td colspan=5>Mezní úchylky pro rozsah délek jeho kratšího ramene [mm]</td>                                                                                                                            
+      </tr>      
+      <tr class="nadpis">                                                                                              <td>přez 0
+          <br>do 10</td>  <td>10
+          <br>50</td>  <td>&nbsp;&nbsp;50
+          <br>120</td>   <td>120
+          <br>400</td> <td>400
+          <br>&nbsp;</td>  
+      </tr>      
+      <tr><td>přesná</td>                                         <td>f</td> <td>±1˚</td>              <td>±0˚30'</td>    <td>±0˚20'</td>                  <td>±0˚10'</td>     <td>±0˚5'</td>          
+      </tr>                                
+      <tr><td>střední</td>                                        <td>m</td> <td>±1˚</td>              <td>±0˚30'</td>    <td>±0˚20'</td>                  <td>±0˚10'</td>     <td>±0˚5'</td>          
+      </tr>      
+      <tr><td>hrubá</td>                                          <td>c</td> <td>±1˚30'</td>           <td>±1</td>        <td>±0˚30'</td>                  <td>±0˚15'</td>     <td>±0˚10'</td>         
+      </tr>               
+      <tr><td>velmi hrubá</td>                                    <td>v</td> <td>±3˚</td>              <td>±2</td>        <td>±1˚</td>                     <td>±0˚30'</td>     <td>±0˚20'</td>         
+      </tr>      
+    </table>
+    <br>
+    <br>    <h2>Nepředepsané geometrické tolerance</h2>    <h3>Přímost a rovinnost</h3>    
+    <table>             
+      <tr class="zacatek"> 
+        <td colspan=2 rowspan=2>Třída přesnosti</td>                                   
+        <td colspan=6>Tolerance přímosti a rovinnosti pro jmenovité déleky [mm]</td>                                                                                                                                                                                      
+      </tr>      
+      <tr class="nadpis">                                                                                              <td>přez 0
+          <br>do 10</td>  <td>10
+          <br>30</td>  <td>&nbsp;&nbsp;&nbsp;30
+          <br>100</td>   <td>100
+          <br>300</td> <td>&nbsp;&nbsp;&nbsp;300
+          <br>1000</td> <td>1000
+          <br>3000</td> 
+      </tr>      
+      <tr><td>přesná</td>                                         <td>H</td> <td>0,02</td>             <td>0,05</td>      <td>0,1</td>                           <td>0,2</td>        <td>0,3</td>                           <td>0,4</td>          
+      </tr>                                
+      <tr><td>střední</td>                                        <td>K</td> <td>0,05</td>             <td>0,1</td>       <td>0,2</td>                           <td>0,4</td>        <td>0,6</td>                           <td>0,8</td>          
+      </tr>      
+      <tr><td>hrubá</td>                                          <td>L</td> <td>0,1</td>              <td>0,2</td>       <td>0,4</td>                           <td>0,8</td>        <td>1,2</td>                           <td>1,6</td>          
+      </tr>             
+    </table>
+    <br>
+    <br>    <h3>Kolmost</h3>    
+    <table>           
+      <tr class="zacatek"> 
+        <td colspan=2 rowspan=2>Třída přesnosti</td>                                   
+        <td colspan=4>Tolerance kolmosti pro rozsahy jmenovitých délek kratší strany [mm]</td>                                                                                                              
+      </tr>      
+      <tr class="nadpis">                                                                                              <td>přez&nbsp;&nbsp;&nbsp;0
+          <br>do 100</td>  <td>100
+          <br>300</td>  <td>&nbsp;&nbsp;300
+          <br>1000</td>   <td>1000
+          <br>3000</td>  
+      </tr>      
+      <tr><td>přesná</td>                                         <td>H</td> <td>0,2</td>                                <td>0,3</td>         <td>0,4</td>                       <td>0,5</td>           
+      </tr>                                
+      <tr><td>střední</td>                                        <td>K</td> <td>0,4</td>                                <td>0,6</td>         <td>0,8</td>                       <td>1</td>             
+      </tr>      
+      <tr><td>hrubá</td>                                          <td>L</td> <td>0,6</td>                                <td>1</td>           <td>1,5</td>                       <td>2</td>             
+      </tr>             
+    </table>
+    <br>
+    <br>         <h3>Souměrnost</h3>    
+    <table>             
+      <tr class="zacatek"> 
+        <td colspan=2 rowspan=2>Třída přesnosti</td>                                   
+        <td colspan=4>Tolerance souměrnosti pro rozsahy délek [mm]</td>                                                                                                              
+      </tr>      
+      <tr class="nadpis">                                                                                              <td>přez&nbsp;&nbsp;&nbsp;0
+          <br>do 100</td>  <td>100
+          <br>300</td>  <td>&nbsp;&nbsp;300
+          <br>1000</td>   <td>1000
+          <br>3000</td>  
+      </tr>      
+      <tr><td>přesná</td>                                         <td>H</td> 
+        <td colspan=4>0,5</td>                                                                                                                                                  
+      </tr>                                
+      <tr><td>střední</td>                                        <td>K</td> 
+        <td colspan=2>0,6</td>                                                          <td>0,8</td>                       <td>1</td>             
+      </tr>      
+      <tr><td>hrubá</td>                                          <td>L</td> <td>0,6</td>                                <td>1</td>           <td>1,5</td>                       <td>2</td>             
+      </tr>             
+    </table>
+    <br>
+    <br>         <h3>Kruhové házení</h3>    
+    <table>           
+      <tr class="zacatek"> 
+        <td colspan=2>Třída přesnosti</td>                                    <td>Tolerance kruhového házení [mm]</td>  
+      </tr>      
+      <tr><td>přesná</td>                               <td>H</td>  <td>0,1</td>                      
+      </tr>      
+      <tr><td>střední</td>                              <td>K</td>  <td>0,2</td>                      
+      </tr>      
+      <tr><td>hrubá</td>                                <td>L</td>  <td>0,5</td>                      
+      </tr>             
+    </table>
+    <br>
+    <br>         <h3>Kruhovitost</h3>    Všeobecná tolerance kruhovitosti je číselně rovna toleranci průměru, nesmí však překročit předepsanou nebo všeobecnou toleranci kruhového házení.  
+    <br>
+    <br>    <h3>Válcovitost</h3>    Všeobecná tolerance je dána tolerancí hruhovitosti, tolerancí přímostí površek a tolerancí rovnoběžnosti protilehlých površek. 
+    <br> 
+    <br>    <h3>Rovnoběžnost</h3>    Všeobecná tolerance rovnoběžnosti je číselně rovna rozměrové toleranci, nebo předepsané či všeobecné gemetrické toleranci buď rovinnosti nebo přímosti (podle toho, která z obou je větší).     Základním prvkem je delší z obou prvků. 
+    <br> 
+    <br>    <h3>Souosost</h3>    Všeobecné tolerance souososti nejsou stanoveny. Souosost je dána předepsanou nebo všeobecnou tolerancí kruhového házení.  
+    <br>  
+    <br>    <h3>Předepisování na výkresech</h3>    Všeobecné tolerance se předepíší souhrnně v blízkosti nebo přímo v popisovém poli.      Označení se skládá z čísla normy ISO, ze značky třídy přesnosti nepředepsaných mezních úchylek rozměrů a ze značky třídy přesnosti všeobecných gemetrických tolerancí, např.      <h3>ISO 2768 - mK</h3>      <h3>m - třída přesnosti gemetrických tolerancí    </h3>    <h3>K - třída přesnosti tolerancí délkových a úhlových rozměrů </h3>  
+  </body>
+</html>

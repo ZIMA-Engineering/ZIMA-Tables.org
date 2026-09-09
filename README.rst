@@ -3,8 +3,12 @@ ZIMA-Tables.org
 ===============
 
 This repository contains the source codes of `ZIMA-Tables.org`_. It is a Django
-project built on top of `ZIMA-WEB-Parts`_. The data of mechanical tables and
-engineering calculations are in a `standalone repository <http://fixme>`_.
+project built on top of `ZIMA-WEB-Parts`_. The mechanical tables and engineering calculations are included in ``data/mechanical-tables``.
+
+See `data library documentation <docs/MECHANICAL_TABLES.md>`_ and the
+`thread validation report <docs/validation/threads-2026-09-09.md>`_.
+The imported tables have known defects; the report records proposed corrections.
+The original data values have not been changed.
 
 Requirements
 ============

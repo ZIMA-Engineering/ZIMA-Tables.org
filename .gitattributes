@@ -1,0 +1,5 @@
+*.py text eol=lf
+*.md text eol=lf
+*.rst text eol=lf
+# Preserve the supplied library byte for byte across Windows and Linux.
+data/mechanical-tables/** -text
